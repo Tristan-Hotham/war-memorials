@@ -1,0 +1,201 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\newfontfamily\headfont{Inter}[UprightFont=*-ExtraBold,BoldFont=*-ExtraBold,Extension=.otf,Path=/usr/share/fonts/opentype/inter/]
+\usepackage[a4paper,margin=2.3cm]{geometry}
+\usepackage{graphicx,booktabs,float,caption,array}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{setspace}
+\setstretch{1.05}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\titleformat{\section}{\headfont\Large}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\headfont\large}{\thesubsection}{0.8em}{}
+\captionsetup{font=small,labelfont=bf}
+\urlstyle{same}
+\hypersetup{pdftitle={How Many Names on Your War Memorial? Counting the First World War Dead Place by Place in the War Memorials Register},pdfauthor={Tristan Hotham}}
+
+\begin{document}
+\begin{center}
+{\Large\bfseries How Many Names on Your War Memorial?\\[2pt] Counting the First World War Dead Place by Place\\[2pt] in the War Memorials Register\par}
+\vspace{1.2em}
+{\large Tristan Hotham\par}
+\vspace{0.3em}
+{\small Independent researcher\\
+ORCID: 0000-0003-4931-9349\\
+DOI: \href{https://doi.org/10.5281/zenodo.23727151}{https://doi.org/10.5281/zenodo.23727151}\par}
+\vspace{0.8em}
+2026
+\end{center}
+
+\begin{quote}
+\small
+\begin{center}\textbf{Abstract}\end{center}
+The Imperial War Museums' War Memorials Register records the United Kingdom's war memorials and, for many, how many names they carry. I use it to ask how many First World War dead each community's memorial names, and how heavy that is relative to the size of the place. The register as retrieved holds {{register.rows|int}} memorials, {{register.ww1|int}} of them for the First World War. Summed over every memorial they carry {{names.ww1_dead|int}} names of the First World War dead, about {{benchmark.entries_per_man|x1}} for each of the roughly {{benchmark.uk_dead|int}} dead and missing from the British Isles, because the same man is named on village, church, school, workplace and regimental memorials. I therefore group memorials into {{places.n|int}} places and take one community memorial per place, never adding memorials together; this cuts the total to {{places.chosen_sum|int}}. For {{rate.n|int}} villages and small towns of {{rate.lo|int}} to {{rate.hi|int}} residents with an exact count and a modern population from Wikidata, the median memorial carries {{rate.median|f1}} names per 1,000 residents today (middle half {{rate.p25|f1}} to {{rate.p75|f1}}). Rates fall steeply with modern size, are highest in Scotland ({{rate_by_nation.0.median|f1}}) and lowest in Wales ({{rate_by_nation.3.median|f1}}); for {{rate1911.n|int}} places with a 1911 census figure the median is {{rate1911.median|f1}} per 1,000 residents of 1911. Only {{tail.zero|int}} of the {{tail.n|int}} small places have a community record with no dead, {{tail.zero_tv|int}} of them Thankful Villages. Modern populations are a weak proxy for 1911, and the register is incomplete, so the results describe what memorials record rather than true losses.
+
+\textbf{Keywords:} war memorials; First World War; Remembrance; Thankful Villages; War Memorials Register; Imperial War Museums; commemoration; open data
+\end{quote}
+
+\section{Introduction}
+
+Almost every town and village in the United Kingdom has a war memorial: a cross on the green, a board inside the church, a book of remembrance or a list of names on a wall. After 1918 these were put up by communities, congregations, schools, employers and regiments, and many were extended after 1945. Together they are the most widespread public record of the First World War's dead.
+
+The Imperial War Museums' War Memorials Register, founded in 1989 as the UK National Inventory of War Memorials, aims to record every war memorial in the United Kingdom, the Isle of Man and the Channel Islands, with its location, type, inscription and the names it carries (Wikipedia contributors 2026a; Imperial War Museums 2026). Its records are built by volunteers and staff, and for many memorials they include a count of the names, split into those who died and those who served.
+
+This note asks three questions of the register. How many First World War names do Britain's places carry on their community memorials? Where are those names heaviest relative to the size of the place? And where, in that distribution, do the Thankful Villages sit: the parishes from which, according to a list maintained on Wikipedia, every serving man came home (Wikipedia contributors 2026b)? It pairs with my earlier study of the Thankful Villages, which asked whether those villages were lucky or simply small (Hotham 2026). An interactive version, with a map and a search across every memorial, is at \url{https://tristan-hotham.github.io/war-memorials/}.
+
+The main difficulty is double counting. One man may be named on his village cross, on a board in his church, on his school's roll of honour, at his workplace and in his regiment's book of remembrance. Adding memorials together therefore counts many men several times. I describe below a simple rule that takes one memorial per place, and I am explicit about the second difficulty: the populations against which I set the names are modern, not those of 1911.
+
+\section{Data}
+
+\subsection{The War Memorials Register}
+
+I retrieved the register through its public data interface on {{register.retrieved}}. The interface reported {{register.expected|int}} memorials; the download holds {{register.rows|int}} unique records. For each memorial it gives a title, one or more types (for example cross, board, window, or addition to a gravestone), a flag for memorials recorded as lost ({{register.lost|int}}), one or more locations with coordinates, a town name and a flag for the current location, and for each war or conflict the number of names, the number recorded as died and as served, and whether the count is exact. {{register.located|int}} memorials have coordinates for a location; {{register.no_location|int}} have none.
+
+The register is reused here for non-commercial research with credit to the Imperial War Museums (Imperial War Museums 2026). I publish counts and memorial titles with links back to the register, but not the titles of memorials to a single named person, and I have no access to, and do not publish, the names of the dead themselves.
+
+\subsection{Populations}
+
+The register gives no population. As a proxy I use Wikidata, which stores a population for most civil parishes, Welsh communities, villages and towns in the United Kingdom (Wikidata contributors 2026). I took every Wikidata settlement with a population and coordinates, as extracted through the QLever SPARQL service, and preferred civil parishes and Welsh communities over villages, towns and other settlements. Wikidata records the most recent figure without, in this extract, its date; most come from the 2011 or 2021 census. For a small set of places Wikidata also records a census population for 1911, which I use as a check.
+
+\subsection{Other sources}
+
+I took each memorial's county and nation from the nearest populated place in Ordnance Survey's OS Open Names (Ordnance Survey 2026), and used simple coordinate boxes for Northern Ireland, the Isle of Man and the Channel Islands. The national benchmark comes from the Wikipedia article on First World War casualties, whose table gives the United Kingdom's population as {{benchmark.uk_pop|m1}} million and, in a note, ``a total of 744,000 dead and missing from the British Isles'' (Wikipedia contributors 2026c). That gives {{benchmark.per1000|f1}} dead per 1,000 residents. The Thankful Villages and their coordinates come from my earlier study, which parsed them from Wikipedia (Hotham 2026; Wikipedia contributors 2026b). Coastlines in the figures are from Natural Earth.
+
+\section{Methods}
+
+\subsection{Names of the dead}
+
+For each memorial and war I take the number recorded as died. Where neither died nor served is given but there are names, I take the number of names, since most memorials list only the dead. A memorial whose count is entirely of men who served, with none recorded as died, is a roll of service and counts as having no dead. The register marks {{names.ww1_exact_share|pct}} of First World War counts as exact.
+
+\subsection{Kinds of memorial}
+
+I gave every memorial one class, from its types and title, using simple and documented keyword rules. A memorial is \emph{to one person} if it is an addition to a gravestone or a serviceman figure, carries a single name, or has a title that starts with a rank or with initials. It is \emph{military} if it commemorates a regiment, battalion, ship, squadron, aircraft crash, veterans' association or similar, or is recorded under the register's regimental or military service headings. It is \emph{regional} if it is a county, national or clan memorial or one of a few similar kinds. It is a \emph{school} or a \emph{workplace} memorial (including railways, banks, the Post Office, police, firms, clubs, lodges and societies) if its title says so; a \emph{church} memorial if its title names a church, chapel, congregation or saint, or if it is a window or a church fitting; and a \emph{community} memorial otherwise. Before matching, the place's own name is removed from the title, so that, for example, a memorial titled with the name of St Ives is not read as a church. These rules will misfile some memorials; the classes are used only to choose one memorial per place and to show where names sit.
+
+\subsection{Places and the community memorial}
+
+A place is a group of memorials that share the same town name in the register (after light normalisation of spelling and punctuation) and lie within 6~km of each other, linked one to the next. Each place is located at the median of its memorials' coordinates. For each place I then choose one memorial for the First World War. Among community memorials, I take the one with the most names of the dead. If no community memorial at the place records any dead, I take the church memorial with the most. A roll of service is chosen only if no community or church memorial at the place records any dead. Memorials to one person, military, regional, school and workplace memorials are never chosen. The same rule is applied separately to the Second World War. Memorials are never added together.
+
+\subsection{Population matching and rates}
+
+Each place is matched to a Wikidata settlement with the same normalised name within 5~km. The rate is the number of names on the chosen memorial per 1,000 residents of that settlement. For the main analysis I keep places of {{rate.lo|int}} to {{rate.hi|int}} residents whose chosen memorial has an exact count. Larger places are left out because a town's community memorial rarely holds all its dead and because a town name in the register can stand for a part of a town. For the 1911 check I use the Wikidata 1911 census population of the same settlement where one is recorded.
+
+\subsection{Thankful Villages}
+
+For each of the {{thankful.n|int}} villages in my earlier study's list I looked for a place with the same name (allowing word order and near spellings) within 6~km, or a memorial within 1.5~km whose title names the village. For each matched village I report what the register holds there: the number of memorials, any roll of service and any names of the dead on any memorial at the place.
+
+\section{Results}
+
+\subsection{What the register holds}
+
+The commonest kind of memorial is a board, plaque or tablet ({{type_groups.0.n|int}}), followed by additions to gravestones ({{type_groups.1.n|int}}), rolls of honour and books of remembrance ({{type_groups.2.n|int}}), crosses ({{type_groups.3.n|int}}) and windows ({{type_groups.4.n|int}}). {{register.ww1|int}} memorials ({{register.ww1_share|pct}}) commemorate the First World War and {{register.ww2|int}} the Second; {{register.both|int}} commemorate both. The South African War of 1899 to 1902 has {{register.boer|int}} memorials and Second World War civilians {{register.civ2|int}}.
+
+\subsection{Double counting}
+
+Summed over every memorial, the First World War names of the dead total {{names.ww1_dead|int}}, or {{benchmark.entries_per_man|x1}} for each of the {{benchmark.uk_dead|int}} dead and missing from the British Isles. {{names.ww1_big|int}} memorials with 5,000 or more names, mostly regimental, national and county rolls, hold {{names.ww1_big_dead|int}} of these; without them the ratio is still {{benchmark.entries_per_man_excl_big|x1}}. Figure~\ref{fig:classes} shows where the names sit. Community memorials carry {{classes.community.ww1_dead|int}}, military memorials {{classes.military.ww1_dead|int}} and church memorials {{classes.church.ww1_dead|int}}.
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.86\linewidth]{f_classes.png}
+\caption{First World War names of the dead in the register, by the class of memorial.}\label{fig:classes}
+\end{figure}
+
+Grouping gives {{places.n|int}} places, {{places.multi_mem|int}} of them with more than one memorial. {{places.with_ww1|int}} have a community or church memorial with a First World War count: {{places.src_community|int}} from a community memorial and {{places.src_church|int}} from a church memorial. Within places, summing every memorial gives {{places.naive_sum|int}} names; one memorial per place gives {{places.chosen_sum|int}}, {{places.naive_over_chosen|x1}} times fewer. That figure is {{places.chosen_share_of_uk|pct}} of the national total, but the closeness is partly coincidence: some places still overlap and many have no count. In Buckden, Cambridgeshire, for example, the village memorial names {{examples.Buckden.dead|int}} men, while the {{examples.Buckden.n_mem|int}} memorials there sum to {{examples.Buckden.dead_all|int}}; in Accrington, Lancashire, the town memorial names {{examples.Accrington.dead|int}} and its {{examples.Accrington.n_mem|int}} memorials sum to {{examples.Accrington.dead_all|int}}.
+
+\subsection{How many names}
+
+Of the places with a First World War count, {{size_n|int}} have a chosen memorial that records names of the dead. The median is {{size_median|int}} names (Figure~\ref{fig:sizes}). {{size_dist.0.n|int}} have 1 to 4 names, and {{size_dist.7.n|int}}, all cities and large towns, have 1,000 or more. Glasgow's roll of honour has the largest First World War figure of any chosen memorial ({{biggest.0.dead|int}}), followed by Nottingham ({{biggest.1.dead|int}}).
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.86\linewidth]{f_sizes.png}
+\caption{Places by the number of First World War names of the dead on their chosen memorial.}\label{fig:sizes}
+\end{figure}
+
+\subsection{Names per 1,000 residents}
+
+{{places.with_pop|int}} places were matched to a Wikidata population, {{places.pop_classes.civil parish|int}} of them to a civil parish. In the main set of {{rate.n|int}} villages and small towns, the median chosen memorial carries {{rate.median|f1}} names per 1,000 residents today; the middle half lies between {{rate.p25|f1}} and {{rate.p75|f1}}, and a tenth of places exceed {{rate.p90|f1}} (Figure~\ref{fig:hist}). Pooled across the set the rate is {{rate.pooled|f1}}, close to the national {{benchmark.per1000|f1}}. {{rate.above_bench|int}} places ({{rate.above_bench_share|pct}}) lie above the national figure.
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.86\linewidth]{f_hist.png}
+\caption{Names of the First World War dead on each place's chosen memorial per 1,000 residents today, for {{rate.n|int}} places of {{rate.lo|int}} to {{rate.hi|int}} residents with an exact count. Dashed line: the national figure; solid line: the median. The last bar collects rates of 100 or more.}\label{fig:hist}
+\end{figure}
+
+The rate falls steeply with modern size (Table~\ref{tab:rates}; Figure~\ref{fig:bypop}): from a median of {{rate_by_pop.0.median|f1}} in places of {{rate_by_pop.0.band}} residents to {{rate_by_pop.4.median|f1}} in places of {{rate_by_pop.4.band}}, while the median number of names rises only from {{rate_by_pop.0.median_dead|int}} to {{rate_by_pop.4.median_dead|int}}. Part of this is likely to reflect growth and decline since 1911 that a modern population cannot capture. The 1911 check points the same way. For the {{rate1911.n|int}} places with a 1911 census figure in Wikidata, the median is {{rate1911.median|f1}} names per 1,000 residents of 1911 (middle half {{rate1911.p25|f1}} to {{rate1911.p75|f1}}), against {{rate1911.median_modern|f1}} per 1,000 residents today for the same places. Relative to 1911, then, these memorials name about twice as many men per head as the national rate. This sample is small and not chosen at random, but it suggests that village memorials commonly named men beyond the resident population: men born there who had moved away, or who lived in surrounding farms and hamlets.
+
+{{TABLE_RATES}}
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.86\linewidth]{f_bypop.png}
+\caption{Median names per 1,000 residents today, by modern population and by nation. Dashed line: the national figure.}\label{fig:bypop}
+\end{figure}
+
+Scottish places have the highest rates (median {{rate_by_nation.0.median|f1}}), then England ({{rate_by_nation.1.median|f1}}), Northern Ireland ({{rate_by_nation.2.median|f1}}, from only {{rate_by_nation.2.n|int}} places) and Wales ({{rate_by_nation.3.median|f1}}). The three counties with the highest medians are the Highland area ({{rate_by_county.0.median|f1}}), Dumfries and Galloway ({{rate_by_county.1.median|f1}}) and the Scottish Borders ({{rate_by_county.2.median|f1}}). The Scottish figures may partly reflect heavier losses, but they cannot be separated from two other influences in these data: rural depopulation since 1911 raises rates measured against modern populations, and Scottish parish memorials often cover an area larger than the village whose name they carry. The Welsh places in the set are also the largest (median {{rate_by_nation.3.median_pop|int}} residents, against {{rate_by_nation.1.median_pop|int}} in England), consistent with Welsh communities being larger units than English civil parishes. Figure~\ref{fig:map} maps the rates.
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.92\linewidth]{f_map.png}
+\caption{Places with First World War names on their chosen memorial, sized by the number of names and coloured by names per 1,000 residents today. Green dots: places whose only community record is a roll of service. Rings: the Thankful Villages.}\label{fig:map}
+\end{figure}
+
+Table~\ref{tab:highest} lists the highest rates among places of {{highest_rule.min_pop|int}} or more residents, after leaving out {{highest_rule.dropped_wide|int}} places whose chosen memorial's title names several parishes, a district, an estate or a county. These are leads rather than findings: a high rate may mean heavy losses, a place that has shrunk since 1911, or a memorial that also names men from round about.
+
+{{TABLE_HIGHEST}}
+
+\subsection{The Second World War}
+
+For the {{ww2.n|int}} places where the same community memorial has exact counts of the dead for both wars, the median ratio of Second to First World War names is {{ww2.median_ratio|x2}}, and the pooled ratio {{ww2.pooled_ratio|x2}}. Only {{ww2.more_ww2|int}} ({{ww2.more_ww2_share|pct1}}) list more names for 1939 to 1945.
+
+\subsection{The Thankful Villages}
+
+Of the {{thankful.n|int}} villages in the list ({{thankful.england|int}} in England and {{thankful.wales|int}} in Wales, {{thankful.doubly|int}} flagged as doubly thankful), I found {{thankful.matched|int}} in the register. {{thankful.with_served_roll|int}} have a roll of those who served with no dead recorded (median {{thankful.served_median|int}} names) and {{thankful.thank_title|int}} have a memorial with ``thankful'' or ``thanksgiving'' in its title. Four have names of the dead on a memorial at the place. At Nether Kellet the church board is recorded with {{thankful.nether_kellet_dead|int}} names of men who died, the same as the {{earlier.nether_kellet_served|int}} who served according to the village's Wikipedia article, which suggests a coding slip. At East Norton, Chantry and Tellisford the names of the dead are only on memorials to one or two people; the register cannot show whether these men were counted as villagers, and the Wikipedia list notes that uncertainty is ``generally over the place of residence of a serviceman'' (Wikipedia contributors 2026b).
+
+The Thankful Villages are the end of the distribution in Figure~\ref{fig:hist}. Of the {{tail.n|int}} small places with an exact count, only {{tail.zero|int}} ({{tail.zero_share|pct1}}) have a chosen record with no dead, and {{tail.zero_tv|int}} of those are Thankful Villages; {{tail.one|int}} name one man and {{tail.two|int}} name two (Figure~\ref{fig:tail}). Across places of every size there are {{served_only.n|int}} whose only First World War community or church record is a roll of service and where no memorial at the place records any dead; {{served_only.tv|int}} are Thankful Villages. Of the rest, {{candidates.n|int}} are small places with rolls of 1 to 100 names, {{candidates.by_nation.England|int}} in England, {{candidates.by_nation.Wales|int}} in Wales, {{candidates.by_nation.Northern Ireland|int}} in Northern Ireland and {{candidates.by_nation.Scotland|int}} in Scotland. They are listed in the data files as places worth checking, not as new Thankful Villages: a roll of service can stand beside a memorial the register has not recorded, or one filed under a neighbouring name.
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.86\linewidth]{f_tail.png}
+\caption{Small places by the number of First World War names of the dead on their chosen memorial, 0 to 20. The hatched part of the first bar shows Thankful Villages.}\label{fig:tail}
+\end{figure}
+
+\section{Discussion}
+
+The register makes it possible to set the First World War names of thousands of communities side by side. Three points stand out. First, double counting is not a detail: summing memorials overstates the dead about threefold, and any place-level comparison has to choose one memorial per place. Second, the typical village memorial carries a number of names that is large relative to the place: around {{rate.median|f1}} per 1,000 of today's residents and, where a 1911 figure exists, about {{rate1911.median|f1}} per 1,000 of the residents of 1911. Third, almost no small place has a community record with no dead.
+
+These points bear on the puzzle raised in my earlier study, where an independent risk of death of {{earlier.risk|pct}} for each serving man predicted between {{earlier.expected_low|int}} and {{earlier.expected_high|int}} Thankful Villages in England and Wales, far more than are known (Hotham 2026). If village memorials reach beyond the resident population, a village's effective number of men at risk is larger than its size suggests, and the chance that none of them died is correspondingly smaller. The memorials also reflect choices: who counted as a son of the parish was decided locally, and a single name can remove a village from the list.
+
+\section{Limitations}
+
+The populations are the main weakness. They are modern, from Wikidata, matched by name and distance, and they describe the settlement or parish rather than the area a memorial served. Places that have grown since 1911 appear to have lost few men; places that have shrunk appear to have lost many. The 1911 check covers only {{rate1911.n|int}} places. The register is incomplete: many memorials have no count, some counts are approximate, and a few are plainly miscoded. The classification of memorials and the grouping into places rely on titles and town names, which vary. County and national figures in the casualty benchmark include men from across the British Isles, and the register does not cover the Republic of Ireland. None of this can be read as a measure of each community's true losses; it is a measure of what its memorial records.
+
+\section{Conclusion}
+
+Counted one memorial per place, Britain's community memorials carry {{places.chosen_sum|int}} First World War names of the dead. A typical village or small town memorial carries {{rate.median|f1}} names for every 1,000 people living there now, and the long lists are longest, relative to modern population, in small and rural places and in Scotland. The Thankful Villages sit at the very end of a distribution in which a record of no dead is rare: {{tail.zero|int}} of {{tail.n|int}} small places with an exact count.
+
+\section*{Data and code availability}
+
+Data and code: \url{https://github.com/Tristan-Hotham/war-memorials}. Interactive version: \url{https://tristan-hotham.github.io/war-memorials/}. Archived release: \url{https://doi.org/10.5281/zenodo.23727151}. The derived data are released under CC BY-NC 4.0, following the non-commercial terms of the register; the code is released under the MIT licence.
+
+\section*{AI statement}
+
+I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.
+
+\section*{References}
+\small
+Hotham, T. (2026) Thankful Villages: luck or size? Zenodo. \url{https://doi.org/10.5281/zenodo.23676168}
+
+Imperial War Museums (2026) War Memorials Register. \url{https://www.iwm.org.uk/memorials} (data retrieved 28 October 2026).
+
+Natural Earth (2026) 1:10m land polygons. \url{https://www.naturalearthdata.com}
+
+Ordnance Survey (2026) OS Open Names. Open Government Licence v3.0. \url{https://www.ordnancesurvey.co.uk/products/os-open-names}
+
+Wikidata contributors (2026) Wikidata. CC0. \url{https://www.wikidata.org} (populations retrieved 27 October 2026 through QLever, \url{https://qlever.cs.uni-freiburg.de}).
+
+Wikipedia contributors (2026a) War Memorials Register. English Wikipedia. \url{https://en.wikipedia.org/wiki/War_Memorials_Register} (accessed 28 October 2026).
+
+Wikipedia contributors (2026b) Thankful Villages. English Wikipedia. \url{https://en.wikipedia.org/wiki/Thankful_Villages} (accessed 28 October 2026).
+
+Wikipedia contributors (2026c) World War I casualties. English Wikipedia. \url{https://en.wikipedia.org/wiki/World_War_I_casualties} (accessed 28 October 2026).
+\end{document}
