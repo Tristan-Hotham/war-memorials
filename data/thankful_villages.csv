@@ -1,0 +1,56 @@
+village,county,nation,doubly,lat,lng,pid,match,n_mem,n_ww1,ww1_title,ww1_mid,ww1_dead,ww1_served,ww1_status,ww1_src,max_dead_any,served_any
+Stoke Hammond,Buckinghamshire,England,False,51.9568,-0.719,15045.0,same name,2,1,,,,,,,,0.0
+Toft,Cambridgeshire,England,False,52.1866,-0.0131,15915.0,same name,3,2,,,,,,,,0.0
+Herodsfoot,Cornwall,England,True,50.416,-4.514,7536.0,same name,1,1,Herodsfoot Parish,41451.0,0.0,13.0,served only,community,0.0,13.0
+Ousby,Cumberland,England,True,54.705,-2.582,12162.0,same name,2,1,Ousby Thanksgiving WW1,3008.0,0.0,11.0,served only,church,0.0,11.0
+Bradbourne,Derbyshire,England,True,53.071,-1.688,2063.0,same name,2,0,,,,,,,,
+Langton Herring,Dorset,England,True,50.64111111,-2.5475,9110.0,same name,3,2,Langton Herring Roll of Honour- WW1,1091.0,0.0,31.0,served only,community,0.0,31.0
+Hunstanworth,Durham,England,False,54.83333333,-2.06666667,8106.0,near spelling or title,1,1,,,,,,,,0.0
+Strethall,Essex,England,False,52.0324,0.1617,,none found,0,0,,,,,,,,
+Coln Rogers,Gloucestershire,England,False,51.7841,-1.87673,3856.0,same name,1,1,Coln Rogers Parishioners,20753.0,0.0,26.0,served only,church,0.0,26.0
+Little Sodbury,Gloucestershire,England,False,51.54611111,-2.35138889,9554.0,same name,1,1,Little Sodbury - Rolls Of Honour,28713.0,0.0,6.0,served only,community,0.0,6.0
+Upper Slaughter,Gloucestershire,England,True,51.906,-1.777,16353.0,same name,6,3,Parish Hall Board WW1,21033.0,0.0,25.0,served only,community,0.0,25.0
+Knill,Herefordshire,England,False,52.238,-3.039,8962.0,same name,3,0,,,,,,,,
+Middleton-on-the-Hill,Herefordshire,England,True,52.277,-2.673,10760.0,same name,2,1,,,,,,,,0.0
+Puttenham,Hertfordshire,England,False,51.82298,-0.71298,12945.0,same name,1,0,,,,,,,,
+Knowlton,Kent,England,False,51.235,1.275,8987.0,same name,1,1,,,,,,,0.0,13.0
+Arkholme,Lancashire,England,True,54.144,-2.642,583.0,same name,4,2,Arkholme - WW1 Roll of Honour,66666.0,0.0,59.0,served only,community,0.0,59.0
+Nether Kellet,Lancashire,England,True,54.107,-2.759,11314.0,same name,2,1,St Marks Church,62688.0,21.0,21.0,died,church,21.0,21.0
+Saxby,Leicestershire,England,False,52.7727,-0.8099,13691.0,same name,1,1,,,,,,,,0.0
+East Norton,Leicestershire,England,False,52.5959,-0.8427,5211.0,same name,3,3,,,,,,,2.0,0.0
+Stretton en le Field,Leicestershire,England,False,52.704,-1.55,,none found,0,0,,,,,,,,
+Bigby,Lincolnshire,England,False,53.55208,-0.402229,1559.0,same name,1,0,,,,,,,,
+Flixborough,Lincolnshire,England,True,53.6243,-0.68335,5960.0,same name,2,1,,,,,,,,0.0
+High Toynton,Lincolnshire,England,True,53.21076,-0.07873,7636.0,same name,4,2,High Toynton - WW1 Roll Of Honour,59565.0,0.0,6.0,served only,community,0.0,14.0
+Minting,Lincolnshire,England,False,53.24504,-0.22007,10876.0,same name,2,1,Minting - WW1,96492.0,0.0,10.0,served only,community,0.0,10.0
+Allington,Lincolnshire,England,True,52.952427,-0.722981,372.0,same name,1,0,,,,,,,,
+East Carlton,Northamptonshire,England,False,52.4972,-0.7862,5127.0,same name,1,1,East Carlton - WW1 Served,59192.0,0.0,7.0,served only,community,0.0,7.0
+Woodend,Northamptonshire,England,False,52.1368,-1.1017,17657.0,same name,1,0,,,,,,,,
+Meldon,Northumberland,England,False,55.1456,-1.8054,10620.0,same name,1,0,,,,,,,,
+Cromwell,Nottinghamshire,England,False,53.14,-0.81,,none found,0,0,,,,,,,,
+Maplebeck,Nottinghamshire,England,False,53.14,-0.94,,none found,0,0,,,,,,,,
+Wigsley,Nottinghamshire,England,False,53.22,-0.71,,none found,0,0,,,,,,,,
+Wysall,Nottinghamshire,England,False,52.84,-1.1,17875.0,same name,3,0,,,,,,,,
+Teigh,Rutland,England,False,52.737,-0.663,15566.0,same name,3,3,Teigh - WW1,58384.0,0.0,13.0,served only,community,0.0,14.0
+Harley,Shropshire,England,False,52.61,-2.598,7163.0,same name,2,1,"Harley, Roll of Honour",112523.0,0.0,20.0,served only,community,0.0,20.0
+Aisholt,Somerset,England,False,51.125,-3.1075,265.0,same name,1,1,All Saints Parishioners Roll Of Honour - WW1,7507.0,0.0,8.0,served only,church,0.0,8.0
+Chantry,Somerset,England,False,51.227,-2.378,3191.0,same name,1,1,,,,,,,1.0,0.0
+Chelwood,Somerset,England,False,51.3549,-2.5249,,none found,0,0,,,,,,,,
+Holywell Lake,Somerset,England,False,50.9818,-3.2861,15678.0,near spelling or title,2,1,,,,,,,,
+Rodney Stoke,Somerset,England,False,51.2476,-2.7357,13342.0,same name,5,3,"Rodney Stoke - St. Leonard's Church, WW1",68624.0,0.0,42.0,served only,church,0.0,42.0
+Stocklinch,Somerset,England,True,50.9536,-2.8769,15002.0,same name,2,1,Stocklinch - WW1,30743.0,0.0,19.0,served only,community,0.0,19.0
+Tellisford,Somerset,England,False,51.3,-2.283,15570.0,same name,2,1,,,,,,,2.0,
+Woolley,Somerset,England,True,51.405,-2.357,17723.0,same name,3,0,,,,,,,,
+Butterton,Staffordshire,England,True,53.1073,-1.8924,2768.0,same name,3,1,,,,,,,,0.0
+Culpho,Suffolk,England,False,52.096,1.225,4403.0,same name,1,1,,,,,,,,0.0
+Wordwell,Suffolk,England,False,52.317,0.683,,none found,0,0,,,,,,,,
+South Elmham St Michael,Suffolk,England,True,52.404,1.438,14718.0,same name,2,1,St Michael South Elmham - WW1 Roll of Honour,72804.0,0.0,11.0,served only,community,0.0,11.0
+East Wittering,Sussex,England,False,50.76942,-0.87377,5252.0,same name,3,2,,,,,,,0.0,1.0
+Catwick,Yorkshire,England,True,53.89305556,-0.28111111,,none found,0,0,,,,,,,,
+Cundall,Yorkshire,England,False,54.14777778,-1.35277778,,none found,0,0,,,,,,,,
+Helperthorpe,Yorkshire,England,False,54.11972222,-0.54333333,7467.0,same name,1,1,Helperthorpe - WW1 Roll Of Honour,30588.0,0.0,18.0,served only,community,0.0,18.0
+Norton-le-Clay,Yorkshire,England,False,54.13418,-1.38602,,none found,0,0,,,,,,,,
+Scruton,Yorkshire,England,False,54.32583333,-1.54138889,13762.0,same name,1,0,,,,,,,,
+Llanfihangel y Creuddyn,Ceredigion,Wales,True,52.369939,-3.961772,,none found,0,0,,,,,,,,
+Colwinston,Glamorgan,Wales,False,51.46853,-3.52599,3879.0,same name,3,1,Colwinston WW1 bench and plaque,115884.0,0.0,23.0,served only,community,0.0,23.0
+Herbrandston,Pembrokeshire,Wales,True,51.726443,-5.085726,,none found,0,0,,,,,,,,

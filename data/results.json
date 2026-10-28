@@ -1,0 +1,3316 @@
+{
+ "register": {
+  "rows": 111532,
+  "expected": 112072,
+  "retrieved": "28 October 2026",
+  "lost": 3074,
+  "located": 104641,
+  "no_location": 6891,
+  "ww1": 76160,
+  "ww2": 37858,
+  "both": 14795,
+  "civ1": 790,
+  "civ2": 2338,
+  "boer": 2678,
+  "ww1_share": 0.682853351504501,
+  "ww2_share": 0.33943621561524945
+ },
+ "types": [
+  {
+   "type": "Board / Plaque / Tablet",
+   "n": 39531
+  },
+  {
+   "type": "Addition to gravestone",
+   "n": 30175
+  },
+  {
+   "type": "Roll of honour or book of remembrance",
+   "n": 7535
+  },
+  {
+   "type": "Cross",
+   "n": 6498
+  },
+  {
+   "type": "Window",
+   "n": 4496
+  },
+  {
+   "type": "Stone of remembrance",
+   "n": 1692
+  },
+  {
+   "type": "Obelisk",
+   "n": 1164
+  },
+  {
+   "type": "Seat",
+   "n": 1106
+  },
+  {
+   "type": "Composite",
+   "n": 1075
+  },
+  {
+   "type": "Pillar / Column",
+   "n": 993
+  },
+  {
+   "type": "Hall / Institute",
+   "n": 889
+  },
+  {
+   "type": "Other memorial",
+   "n": 874
+  },
+  {
+   "type": "Battlefield cross or marker",
+   "n": 803
+  },
+  {
+   "type": "Church Fabric / Fitting: Reredos or screen",
+   "n": 734
+  },
+  {
+   "type": "Avenue / Tree or grove",
+   "n": 668
+  },
+  {
+   "type": "Gate",
+   "n": 649
+  }
+ ],
+ "n_types": 85,
+ "type_groups": [
+  {
+   "group": "Board, plaque or tablet",
+   "n": 39531
+  },
+  {
+   "group": "Addition to a gravestone",
+   "n": 30175
+  },
+  {
+   "group": "Roll of honour or book",
+   "n": 7535
+  },
+  {
+   "group": "Cross",
+   "n": 6498
+  },
+  {
+   "group": "Window",
+   "n": 4496
+  },
+  {
+   "group": "Obelisk, pillar or cenotaph",
+   "n": 2504
+  },
+  {
+   "group": "Stone of remembrance",
+   "n": 1692
+  },
+  {
+   "group": "Church fitting",
+   "n": 3848
+  },
+  {
+   "group": "Figure or sculpture",
+   "n": 1422
+  },
+  {
+   "group": "Hall, garden, gate or seat",
+   "n": 5790
+  }
+ ],
+ "wars": [
+  {
+   "war": "First World War (1914-1918)",
+   "n": 76160
+  },
+  {
+   "war": "Second World War (1939-1945)",
+   "n": 37858
+  },
+  {
+   "war": "Military Service",
+   "n": 2725
+  },
+  {
+   "war": "Boer War; Second (1899-1902)",
+   "n": 2678
+  },
+  {
+   "war": "Second World War - civilians",
+   "n": 2338
+  },
+  {
+   "war": "Non-Specific Conflict",
+   "n": 906
+  },
+  {
+   "war": "First World War - civilians",
+   "n": 790
+  },
+  {
+   "war": "20th Century Conflict (1900-1999)",
+   "n": 777
+  },
+  {
+   "war": "Regimental Memorials",
+   "n": 702
+  },
+  {
+   "war": "Northern Ireland Conflict; The Troubles (1969-1998)",
+   "n": 612
+  },
+  {
+   "war": "Korean War (1950-1953)",
+   "n": 606
+  },
+  {
+   "war": "Falklands Conflict (1982)",
+   "n": 509
+  },
+  {
+   "war": "Crimean War (1853-1856)",
+   "n": 492
+  },
+  {
+   "war": "East India Company Campaigns (1757-1858)",
+   "n": 483
+  }
+ ],
+ "n_wars": 110,
+ "nations": {
+  "England": 83791,
+  "Scotland": 15387,
+  "No location": 6891,
+  "Wales": 4244,
+  "Northern Ireland": 710,
+  "Isle of Man": 326,
+  "Channel Islands": 103,
+  "Elsewhere": 80
+ },
+ "classes": {
+  "community": {
+   "n": 22967,
+   "ww1": 17634,
+   "ww1_dead": 747187
+  },
+  "church": {
+   "n": 19507,
+   "ww1": 15088,
+   "ww1_dead": 468433
+  },
+  "school": {
+   "n": 4062,
+   "ww1": 2832,
+   "ww1_dead": 125185
+  },
+  "workplace": {
+   "n": 4901,
+   "ww1": 3711,
+   "ww1_dead": 237161
+  },
+  "military": {
+   "n": 7139,
+   "ww1": 2053,
+   "ww1_dead": 614799
+  },
+  "regional": {
+   "n": 455,
+   "ww1": 121,
+   "ww1_dead": 237731
+  },
+  "individual": {
+   "n": 52501,
+   "ww1": 34721,
+   "ww1_dead": 65900
+  }
+ },
+ "published_memorials": 59031,
+ "names": {
+  "ww1_tot": 3153742,
+  "ww1_died": 2256956,
+  "ww1_served": 655991,
+  "ww1_dead": 2496396,
+  "ww1_with_count": 64706,
+  "ww1_exact": 58071,
+  "ww1_exact_share": 0.7624868697478991,
+  "ww1_served_only": 1284,
+  "ww2_tot": 7552236,
+  "ww2_died": 7022232,
+  "ww2_dead": 7103922,
+  "ww1_big": 43,
+  "ww1_big_dead": 897502,
+  "ww1_median_named": 3.0,
+  "ww1_dead_excl_big": 1598894,
+  "ww2_big": 17,
+  "ww2_dead_excl_big": 540320
+ },
+ "benchmark": {
+  "uk_dead": 744000,
+  "uk_pop": 45400000.0,
+  "source": "Wikipedia, World War I casualties (retrieved 28 October 2026)",
+  "per1000": 16.387665198237887,
+  "entries_per_man": 3.3553709677419357,
+  "entries_per_man_excl_big": 2.149051075268817
+ },
+ "places": {
+  "n": 17967,
+  "with_ww1": 14119,
+  "src_community": 10665,
+  "src_church": 3454,
+  "ww1_exact": 11802,
+  "ww1_exact_died": 11533,
+  "with_pop": 10844,
+  "with_ww1_pop": 9728,
+  "chosen_sum": 727184,
+  "naive_sum": 2423089,
+  "median_mem_per_place": 2.0,
+  "multi_mem": 11433,
+  "with_ww2": 10575,
+  "chosen_sum_ww2": 228607,
+  "chosen_share_of_uk": 0.9773978494623656,
+  "naive_over_chosen": 3.3321538977755285,
+  "by_nation": {
+   "England": 14341,
+   "Scotland": 1998,
+   "Wales": 1350,
+   "Northern Ireland": 215,
+   "Isle of Man": 41,
+   "Channel Islands": 22
+  },
+  "pop_classes": {
+   "civil parish": 8201,
+   "village": 1093,
+   "community": 480,
+   "town": 403,
+   "suburb": 213,
+   "area of London": 150
+  }
+ },
+ "size_dist": [
+  {
+   "band": "1 to 4",
+   "n": 1442
+  },
+  {
+   "band": "5 to 9",
+   "n": 2778
+  },
+  {
+   "band": "10 to 19",
+   "n": 3664
+  },
+  {
+   "band": "20 to 49",
+   "n": 3384
+  },
+  {
+   "band": "50 to 99",
+   "n": 1309
+  },
+  {
+   "band": "100 to 249",
+   "n": 821
+  },
+  {
+   "band": "250 to 999",
+   "n": 315
+  },
+  {
+   "band": "1,000 or more",
+   "n": 63
+  }
+ ],
+ "size_median": 16.0,
+ "size_n": 13776,
+ "biggest": [
+  {
+   "place": "Glasgow",
+   "county": "Glasgow City",
+   "nation": "Scotland",
+   "title": "Glasgow - Roll of Honour WW1-WW2",
+   "dead": 18000,
+   "mid": 57348,
+   "exact": true
+  },
+  {
+   "place": "Nottingham",
+   "county": "City of Nottingham",
+   "nation": "England",
+   "title": "Nottingham - Victoria Embankment Great War Memorial",
+   "dead": 13501,
+   "mid": 97802,
+   "exact": true
+  },
+  {
+   "place": "Leicester",
+   "county": "City of Leicester",
+   "nation": "England",
+   "title": "City and County of Leicester - WW1 Book of Remembrance",
+   "dead": 11000,
+   "mid": 37581,
+   "exact": false
+  },
+  {
+   "place": "Birmingham",
+   "county": "",
+   "nation": "England",
+   "title": "Birmingham Hall Of Memory",
+   "dead": 11000,
+   "mid": 2049,
+   "exact": false
+  },
+  {
+   "place": "Bradford",
+   "county": "",
+   "nation": "England",
+   "title": "Bradford Roll Of Honour WW1",
+   "dead": 10500,
+   "mid": 28830,
+   "exact": false
+  },
+  {
+   "place": "Aberdeen",
+   "county": "Aberdeen City",
+   "nation": "Scotland",
+   "title": "Aberdeen War Memorial",
+   "dead": 5042,
+   "mid": 5812,
+   "exact": true
+  },
+  {
+   "place": "Bolton",
+   "county": "",
+   "nation": "England",
+   "title": "Bolton Book Of Remembrance",
+   "dead": 3500,
+   "mid": 10689,
+   "exact": true
+  },
+  {
+   "place": "Middlesbrough",
+   "county": "Middlesbrough",
+   "nation": "England",
+   "title": "Middlesbrough",
+   "dead": 3137,
+   "mid": 9697,
+   "exact": true
+  },
+  {
+   "place": "Blackburn",
+   "county": "Blackburn with Darwen",
+   "nation": "England",
+   "title": "Blackburn - WW1 Book of Remembrance",
+   "dead": 3111,
+   "mid": 62473,
+   "exact": false
+  },
+  {
+   "place": "Northampton",
+   "county": "West Northamptonshire",
+   "nation": "England",
+   "title": "Northampton - Garden Of Remembrance",
+   "dead": 2864,
+   "mid": 14948,
+   "exact": false
+  },
+  {
+   "place": "Oldham",
+   "county": "",
+   "nation": "England",
+   "title": "Oldham",
+   "dead": 2688,
+   "mid": 10,
+   "exact": true
+  },
+  {
+   "place": "Brighton",
+   "county": "The City of Brighton and Hove",
+   "nation": "England",
+   "title": "Brighton",
+   "dead": 2600,
+   "mid": 16849,
+   "exact": true
+  },
+  {
+   "place": "Southampton",
+   "county": "City of Southampton",
+   "nation": "England",
+   "title": "Southampton Cenotaph",
+   "dead": 2368,
+   "mid": 2023,
+   "exact": true
+  },
+  {
+   "place": "Burnley",
+   "county": "Lancashire",
+   "nation": "England",
+   "title": "County Borough Of Burnley Roll of Honour",
+   "dead": 2336,
+   "mid": 58427,
+   "exact": false
+  },
+  {
+   "place": "Swansea",
+   "county": "Abertawe - Swansea",
+   "nation": "Wales",
+   "title": "Swansea",
+   "dead": 2274,
+   "mid": 6627,
+   "exact": true
+  }
+ ],
+ "rate": {
+  "lo": 100,
+  "hi": 5000,
+  "n": 6108,
+  "p10": 6.09,
+  "p25": 10.67,
+  "median": 18.26,
+  "p75": 29.97,
+  "p90": 46.62,
+  "mean": 24.35,
+  "zero": 36,
+  "above_bench": 3411,
+  "over100": 96,
+  "pooled": 16.38,
+  "src_church": 1162,
+  "above_bench_share": 0.5584479371316307
+ },
+ "rate_hist": [
+  {
+   "lo": 0,
+   "n": 447
+  },
+  {
+   "lo": 5,
+   "n": 925
+  },
+  {
+   "lo": 10,
+   "n": 1032
+  },
+  {
+   "lo": 15,
+   "n": 971
+  },
+  {
+   "lo": 20,
+   "n": 697
+  },
+  {
+   "lo": 25,
+   "n": 511
+  },
+  {
+   "lo": 30,
+   "n": 408
+  },
+  {
+   "lo": 35,
+   "n": 274
+  },
+  {
+   "lo": 40,
+   "n": 184
+  },
+  {
+   "lo": 45,
+   "n": 145
+  },
+  {
+   "lo": 50,
+   "n": 116
+  },
+  {
+   "lo": 55,
+   "n": 64
+  },
+  {
+   "lo": 60,
+   "n": 68
+  },
+  {
+   "lo": 65,
+   "n": 41
+  },
+  {
+   "lo": 70,
+   "n": 30
+  },
+  {
+   "lo": 75,
+   "n": 26
+  },
+  {
+   "lo": 80,
+   "n": 27
+  },
+  {
+   "lo": 85,
+   "n": 21
+  },
+  {
+   "lo": 90,
+   "n": 19
+  },
+  {
+   "lo": 95,
+   "n": 6
+  },
+  {
+   "lo": 100,
+   "n": 96
+  }
+ ],
+ "rate_by_pop": [
+  {
+   "band": "100 to 199",
+   "n": 544,
+   "median": 38.36,
+   "median_dead": 6.0
+  },
+  {
+   "band": "200 to 499",
+   "n": 1720,
+   "median": 25.96,
+   "median_dead": 8.0
+  },
+  {
+   "band": "500 to 999",
+   "n": 1441,
+   "median": 18.98,
+   "median_dead": 13.0
+  },
+  {
+   "band": "1,000 to 1,999",
+   "n": 1203,
+   "median": 14.43,
+   "median_dead": 20.0
+  },
+  {
+   "band": "2,000 to 5,000",
+   "n": 1200,
+   "median": 9.72,
+   "median_dead": 29.5
+  }
+ ],
+ "rate_by_nation": [
+  {
+   "nation": "Scotland",
+   "n": 556,
+   "median": 29.97,
+   "p25": 18.3,
+   "p75": 46.77,
+   "median_pop": 961.0,
+   "median_dead": 28.0
+  },
+  {
+   "nation": "England",
+   "n": 5196,
+   "median": 17.82,
+   "p25": 10.56,
+   "p75": 28.76,
+   "median_pop": 666.0,
+   "median_dead": 12.0
+  },
+  {
+   "nation": "Northern Ireland",
+   "n": 27,
+   "median": 12.92,
+   "p25": 6.26,
+   "p75": 27.23,
+   "median_pop": 1437.0,
+   "median_dead": 12.0
+  },
+  {
+   "nation": "Wales",
+   "n": 329,
+   "median": 11.99,
+   "p25": 7.01,
+   "p75": 19.86,
+   "median_pop": 1205.0,
+   "median_dead": 12.0
+  }
+ ],
+ "rate_by_county": [
+  {
+   "county": "Highland",
+   "nation": "Scotland",
+   "n": 73,
+   "median": 45.22
+  },
+  {
+   "county": "Dumfries and Galloway",
+   "nation": "Scotland",
+   "n": 55,
+   "median": 40.04
+  },
+  {
+   "county": "Scottish Borders",
+   "nation": "Scotland",
+   "n": 60,
+   "median": 35.27
+  },
+  {
+   "county": "Aberdeenshire",
+   "nation": "Scotland",
+   "n": 68,
+   "median": 30.46
+  },
+  {
+   "county": "Angus",
+   "nation": "Scotland",
+   "n": 29,
+   "median": 28.06
+  },
+  {
+   "county": "Suffolk",
+   "nation": "England",
+   "n": 270,
+   "median": 27.87
+  },
+  {
+   "county": "Northumberland",
+   "nation": "England",
+   "n": 80,
+   "median": 27.51
+  },
+  {
+   "county": "Perth and Kinross",
+   "nation": "Scotland",
+   "n": 50,
+   "median": 27.37
+  },
+  {
+   "county": "County Durham",
+   "nation": "England",
+   "n": 66,
+   "median": 26.87
+  },
+  {
+   "county": "Fife",
+   "nation": "Scotland",
+   "n": 38,
+   "median": 24.73
+  },
+  {
+   "county": "North Northamptonshire",
+   "nation": "England",
+   "n": 50,
+   "median": 24.41
+  },
+  {
+   "county": "Norfolk",
+   "nation": "England",
+   "n": 291,
+   "median": 22.44
+  },
+  {
+   "county": "West Berkshire",
+   "nation": "England",
+   "n": 43,
+   "median": 21.82
+  },
+  {
+   "county": "Hertfordshire",
+   "nation": "England",
+   "n": 69,
+   "median": 20.61
+  },
+  {
+   "county": "North Yorkshire",
+   "nation": "England",
+   "n": 213,
+   "median": 20.22
+  },
+  {
+   "county": "Gloucestershire",
+   "nation": "England",
+   "n": 120,
+   "median": 20.04
+  },
+  {
+   "county": "County of Herefordshire",
+   "nation": "England",
+   "n": 78,
+   "median": 19.85
+  },
+  {
+   "county": "Cheshire East",
+   "nation": "England",
+   "n": 38,
+   "median": 19.6
+  },
+  {
+   "county": "Dorset",
+   "nation": "England",
+   "n": 119,
+   "median": 19.5
+  },
+  {
+   "county": "Westmorland and Furness",
+   "nation": "England",
+   "n": 86,
+   "median": 19.42
+  },
+  {
+   "county": "East Sussex",
+   "nation": "England",
+   "n": 57,
+   "median": 19.4
+  },
+  {
+   "county": "Shropshire",
+   "nation": "England",
+   "n": 115,
+   "median": 19.4
+  },
+  {
+   "county": "Wiltshire",
+   "nation": "England",
+   "n": 125,
+   "median": 19.19
+  },
+  {
+   "county": "Oxfordshire",
+   "nation": "England",
+   "n": 194,
+   "median": 18.6
+  },
+  {
+   "county": "Cheshire West and Chester",
+   "nation": "England",
+   "n": 36,
+   "median": 18.52
+  },
+  {
+   "county": "West Northamptonshire",
+   "nation": "England",
+   "n": 83,
+   "median": 18.02
+  },
+  {
+   "county": "Lincolnshire",
+   "nation": "England",
+   "n": 286,
+   "median": 17.72
+  },
+  {
+   "county": "Rutland",
+   "nation": "England",
+   "n": 32,
+   "median": 17.7
+  },
+  {
+   "county": "Powys - Powys",
+   "nation": "Wales",
+   "n": 50,
+   "median": 17.6
+  },
+  {
+   "county": "Devon",
+   "nation": "England",
+   "n": 241,
+   "median": 17.54
+  },
+  {
+   "county": "Hampshire",
+   "nation": "England",
+   "n": 138,
+   "median": 17.34
+  },
+  {
+   "county": "Worcestershire",
+   "nation": "England",
+   "n": 71,
+   "median": 17.33
+  },
+  {
+   "county": "Cumberland",
+   "nation": "England",
+   "n": 75,
+   "median": 17.2
+  },
+  {
+   "county": "Essex",
+   "nation": "England",
+   "n": 200,
+   "median": 16.76
+  },
+  {
+   "county": "West Sussex",
+   "nation": "England",
+   "n": 78,
+   "median": 16.64
+  },
+  {
+   "county": "Derbyshire",
+   "nation": "England",
+   "n": 126,
+   "median": 16.49
+  },
+  {
+   "county": "Somerset",
+   "nation": "England",
+   "n": 168,
+   "median": 16.33
+  },
+  {
+   "county": "Warwickshire",
+   "nation": "England",
+   "n": 115,
+   "median": 16.04
+  },
+  {
+   "county": "Buckinghamshire",
+   "nation": "England",
+   "n": 86,
+   "median": 16.0
+  },
+  {
+   "county": "Staffordshire",
+   "nation": "England",
+   "n": 70,
+   "median": 15.69
+  },
+  {
+   "county": "Kent",
+   "nation": "England",
+   "n": 188,
+   "median": 15.36
+  },
+  {
+   "county": "Nottinghamshire",
+   "nation": "England",
+   "n": 133,
+   "median": 15.3
+  },
+  {
+   "county": "Cambridgeshire",
+   "nation": "England",
+   "n": 162,
+   "median": 14.9
+  },
+  {
+   "county": "Surrey",
+   "nation": "England",
+   "n": 71,
+   "median": 13.92
+  },
+  {
+   "county": "North Lincolnshire",
+   "nation": "England",
+   "n": 38,
+   "median": 13.89
+  },
+  {
+   "county": "East Riding of Yorkshire",
+   "nation": "England",
+   "n": 75,
+   "median": 13.86
+  },
+  {
+   "county": "Lancashire",
+   "nation": "England",
+   "n": 103,
+   "median": 13.79
+  },
+  {
+   "county": "Leicestershire",
+   "nation": "England",
+   "n": 102,
+   "median": 13.22
+  },
+  {
+   "county": "Bath and North East Somerset",
+   "nation": "England",
+   "n": 37,
+   "median": 13.16
+  },
+  {
+   "county": "Central Bedfordshire",
+   "nation": "England",
+   "n": 38,
+   "median": 12.91
+  },
+  {
+   "county": "Cornwall",
+   "nation": "England",
+   "n": 125,
+   "median": 12.14
+  },
+  {
+   "county": "Sir Benfro - Pembrokeshire",
+   "nation": "Wales",
+   "n": 45,
+   "median": 9.82
+  },
+  {
+   "county": "Sir Gaerfyrddin - Carmarthenshire",
+   "nation": "Wales",
+   "n": 33,
+   "median": 9.64
+  }
+ ],
+ "highest_rule": {
+  "min_pop": 300,
+  "max_rate": 200,
+  "n": 3859,
+  "dropped_wide": 1030,
+  "dropped_200": 2
+ },
+ "highest": [
+  {
+   "place": "Brampton",
+   "county": "Derbyshire",
+   "nation": "England",
+   "dead": 213,
+   "pop": 1201,
+   "rate": 177.4,
+   "title": "St Thomas the Apostles Church",
+   "mid": 678,
+   "pop_label": "Brampton",
+   "pop_class": "civil parish"
+  },
+  {
+   "place": "Witton Park",
+   "county": "County Durham",
+   "nation": "England",
+   "dead": 68,
+   "pop": 384,
+   "rate": 177.1,
+   "title": "Witton Park WW1 Roll of Honour",
+   "mid": 71368,
+   "pop_label": "Witton Park",
+   "pop_class": "village"
+  },
+  {
+   "place": "Binton",
+   "county": "Warwickshire",
+   "nation": "England",
+   "dead": 52,
+   "pop": 311,
+   "rate": 167.2,
+   "title": "Binton - Roll of Honour",
+   "mid": 13719,
+   "pop_label": "Binton",
+   "pop_class": "civil parish"
+  },
+  {
+   "place": "Moniaive",
+   "county": "Dumfries and Galloway",
+   "nation": "Scotland",
+   "dead": 73,
+   "pop": 510,
+   "rate": 143.1,
+   "title": "Glencairn Memorial Institute",
+   "mid": 44308,
+   "pop_label": "Moniaive",
+   "pop_class": "village"
+  },
+  {
+   "place": "Great Salkeld",
+   "county": "Westmorland and Furness",
+   "nation": "England",
+   "dead": 65,
+   "pop": 467,
+   "rate": 139.2,
+   "title": "Great Salkeld Roll of Honour",
+   "mid": 68062,
+   "pop_label": "Great Salkeld",
+   "pop_class": "civil parish"
+  },
+  {
+   "place": "Ringstead",
+   "county": "Norfolk",
+   "nation": "England",
+   "dead": 48,
+   "pop": 355,
+   "rate": 135.2,
+   "title": "Parish of Ringstead",
+   "mid": 115766,
+   "pop_label": "Ringstead",
+   "pop_class": "civil parish"
+  },
+  {
+   "place": "Whitecross",
+   "county": "Falkirk",
+   "nation": "Scotland",
+   "dead": 103,
+   "pop": 770,
+   "rate": 133.8,
+   "title": "Muiravonside",
+   "mid": 78632,
+   "pop_label": "Whitecross",
+   "pop_class": "village"
+  },
+  {
+   "place": "Copley",
+   "county": "County Durham",
+   "nation": "England",
+   "dead": 53,
+   "pop": 400,
+   "rate": 132.5,
+   "title": "Copley-Internal Memorial",
+   "mid": 71307,
+   "pop_label": "Copley",
+   "pop_class": "village"
+  },
+  {
+   "place": "Kirklinton",
+   "county": "Cumberland",
+   "nation": "England",
+   "dead": 50,
+   "pop": 384,
+   "rate": 130.2,
+   "title": "Kirklinton Roll of Honour",
+   "mid": 4308,
+   "pop_label": "Kirklinton",
+   "pop_class": "village"
+  },
+  {
+   "place": "Wilden",
+   "county": "Bedford",
+   "nation": "England",
+   "dead": 53,
+   "pop": 412,
+   "rate": 128.6,
+   "title": "St Nicholas Church Roll Of Honour - WW1",
+   "mid": 7619,
+   "pop_label": "Wilden",
+   "pop_class": "civil parish"
+  },
+  {
+   "place": "Ugley",
+   "county": "Essex",
+   "nation": "England",
+   "dead": 60,
+   "pop": 468,
+   "rate": 128.2,
+   "title": "Memorial Tablet",
+   "mid": 116303,
+   "pop_label": "Ugley",
+   "pop_class": "civil parish"
+  },
+  {
+   "place": "Westruther",
+   "county": "Scottish Borders",
+   "nation": "Scotland",
+   "dead": 49,
+   "pop": 393,
+   "rate": 124.7,
+   "title": "Westruther Roll of Honour WW1",
+   "mid": 81082,
+   "pop_label": "Westruther",
+   "pop_class": "civil parish"
+  },
+  {
+   "place": "Port William",
+   "county": "Dumfries and Galloway",
+   "nation": "Scotland",
+   "dead": 56,
+   "pop": 460,
+   "rate": 121.7,
+   "title": "Mochrum",
+   "mid": 56997,
+   "pop_label": "Port William",
+   "pop_class": "village"
+  },
+  {
+   "place": "Llangeitho",
+   "county": "Sir Ceredigion - Ceredigion",
+   "nation": "Wales",
+   "dead": 105,
+   "pop": 874,
+   "rate": 120.1,
+   "title": "Llangeitho - WW1",
+   "mid": 36666,
+   "pop_label": "Llangeitho",
+   "pop_class": "community"
+  },
+  {
+   "place": "Stanley Crook",
+   "county": "County Durham",
+   "nation": "England",
+   "dead": 47,
+   "pop": 405,
+   "rate": 116.0,
+   "title": "Stanley Crook WW1 Roll of Honour (LOST)",
+   "mid": 71445,
+   "pop_label": "Stanley Crook",
+   "pop_class": "village"
+  }
+ ],
+ "rate1911": {
+  "n": 181,
+  "median": 29.85,
+  "median_modern": 14.71,
+  "p25": 23.01,
+  "p75": 39.47,
+  "pooled": 29.47
+ },
+ "ww2": {
+  "n": 5730,
+  "median_ratio": 0.317,
+  "more_ww2": 235,
+  "sum_ww1": 262491,
+  "sum_ww2": 95567,
+  "pooled_ratio": 0.3640772445531466,
+  "more_ww2_share": 0.04101221640488656
+ },
+ "thankful": {
+  "n": 55,
+  "england": 52,
+  "wales": 3,
+  "doubly": 18,
+  "matched": 43,
+  "with_served_roll": 20,
+  "thank_title": 15,
+  "any_record": 43,
+  "with_dead": 4,
+  "with_dead_indiv_only": 3,
+  "served_median": 14.0,
+  "served_total": 371,
+  "served_n": 20,
+  "nether_kellet_dead": 21
+ },
+ "thankful_list": [
+  {
+   "village": "Stoke Hammond",
+   "county": "Buckinghamshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 2,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": true
+  },
+  {
+   "village": "Toft",
+   "county": "Cambridgeshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 3,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": true
+  },
+  {
+   "village": "Herodsfoot",
+   "county": "Cornwall",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 1,
+   "served": 13,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Ousby",
+   "county": "Cumberland",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 2,
+   "served": 11,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": true
+  },
+  {
+   "village": "Bradbourne",
+   "county": "Derbyshire",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 2,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Langton Herring",
+   "county": "Dorset",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 3,
+   "served": 31,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": true
+  },
+  {
+   "village": "Hunstanworth",
+   "county": "Durham",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 1,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": true
+  },
+  {
+   "village": "Strethall",
+   "county": "Essex",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 0,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Coln Rogers",
+   "county": "Gloucestershire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 1,
+   "served": 26,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Little Sodbury",
+   "county": "Gloucestershire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 1,
+   "served": 6,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Upper Slaughter",
+   "county": "Gloucestershire",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 6,
+   "served": 25,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": true
+  },
+  {
+   "village": "Knill",
+   "county": "Herefordshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 3,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Middleton-on-the-Hill",
+   "county": "Herefordshire",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 2,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": true
+  },
+  {
+   "village": "Puttenham",
+   "county": "Hertfordshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 1,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": true
+  },
+  {
+   "village": "Knowlton",
+   "county": "Kent",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 1,
+   "served": 13,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Arkholme",
+   "county": "Lancashire",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 4,
+   "served": 59,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Nether Kellet",
+   "county": "Lancashire",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 2,
+   "served": null,
+   "dead_any": 21,
+   "dead_mem": 1,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Saxby",
+   "county": "Leicestershire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 1,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": true
+  },
+  {
+   "village": "East Norton",
+   "county": "Leicestershire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 3,
+   "served": null,
+   "dead_any": 3,
+   "dead_mem": 2,
+   "dead_indiv": 2,
+   "thank_title": false
+  },
+  {
+   "village": "Stretton en le Field",
+   "county": "Leicestershire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 0,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Bigby",
+   "county": "Lincolnshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 1,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Flixborough",
+   "county": "Lincolnshire",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 2,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "High Toynton",
+   "county": "Lincolnshire",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 4,
+   "served": 14,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": true
+  },
+  {
+   "village": "Minting",
+   "county": "Lincolnshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 2,
+   "served": 10,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Allington",
+   "county": "Lincolnshire",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 1,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "East Carlton",
+   "county": "Northamptonshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 1,
+   "served": 7,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Woodend",
+   "county": "Northamptonshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 1,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Meldon",
+   "county": "Northumberland",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 1,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": true
+  },
+  {
+   "village": "Cromwell",
+   "county": "Nottinghamshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 0,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Maplebeck",
+   "county": "Nottinghamshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 0,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Wigsley",
+   "county": "Nottinghamshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 0,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Wysall",
+   "county": "Nottinghamshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 3,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Teigh",
+   "county": "Rutland",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 3,
+   "served": 14,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": true
+  },
+  {
+   "village": "Harley",
+   "county": "Shropshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 2,
+   "served": 20,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Aisholt",
+   "county": "Somerset",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 1,
+   "served": 8,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Chantry",
+   "county": "Somerset",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 1,
+   "served": null,
+   "dead_any": 1,
+   "dead_mem": 1,
+   "dead_indiv": 1,
+   "thank_title": false
+  },
+  {
+   "village": "Chelwood",
+   "county": "Somerset",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 0,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Holywell Lake",
+   "county": "Somerset",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 2,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Rodney Stoke",
+   "county": "Somerset",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 5,
+   "served": 42,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": true
+  },
+  {
+   "village": "Stocklinch",
+   "county": "Somerset",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 2,
+   "served": 19,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Tellisford",
+   "county": "Somerset",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 2,
+   "served": null,
+   "dead_any": 2,
+   "dead_mem": 1,
+   "dead_indiv": 1,
+   "thank_title": false
+  },
+  {
+   "village": "Woolley",
+   "county": "Somerset",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 3,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Butterton",
+   "county": "Staffordshire",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 3,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": true
+  },
+  {
+   "village": "Culpho",
+   "county": "Suffolk",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 1,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": true
+  },
+  {
+   "village": "Wordwell",
+   "county": "Suffolk",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 0,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "South Elmham St Michael",
+   "county": "Suffolk",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 2,
+   "served": 11,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "East Wittering",
+   "county": "Sussex",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 3,
+   "served": 1,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Catwick",
+   "county": "Yorkshire",
+   "nation": "England",
+   "doubly": true,
+   "n_mem": 0,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Cundall",
+   "county": "Yorkshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 0,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Helperthorpe",
+   "county": "Yorkshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 1,
+   "served": 18,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Norton-le-Clay",
+   "county": "Yorkshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 0,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Scruton",
+   "county": "Yorkshire",
+   "nation": "England",
+   "doubly": false,
+   "n_mem": 1,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Llanfihangel y Creuddyn",
+   "county": "Ceredigion",
+   "nation": "Wales",
+   "doubly": true,
+   "n_mem": 0,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Colwinston",
+   "county": "Glamorgan",
+   "nation": "Wales",
+   "doubly": false,
+   "n_mem": 3,
+   "served": 23,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  },
+  {
+   "village": "Herbrandston",
+   "county": "Pembrokeshire",
+   "nation": "Wales",
+   "doubly": true,
+   "n_mem": 0,
+   "served": null,
+   "dead_any": 0,
+   "dead_mem": 0,
+   "dead_indiv": 0,
+   "thank_title": false
+  }
+ ],
+ "tail": {
+  "zero": 36,
+  "one": 40,
+  "two": 137,
+  "three": 216,
+  "le3": 429,
+  "n": 6108,
+  "zero_share": 0.005893909626719057,
+  "zero_tv": 8,
+  "zero_other": 28,
+  "le3_share": 0.07023575638506876
+ },
+ "served_only": {
+  "n": 92,
+  "tv": 18,
+  "other": 74,
+  "exact": 53
+ },
+ "served_only_list": [
+  {
+   "place": "Mile End Stepney",
+   "county": "Greater London",
+   "nation": "England",
+   "served": 3300,
+   "title": "St George in the East and Wapping Residents WW1",
+   "mid": 18033,
+   "exact": true
+  },
+  {
+   "place": "Walham Green",
+   "county": "Greater London",
+   "nation": "England",
+   "served": 518,
+   "title": "St James Church Book Of Remembrance WW1",
+   "mid": 18097,
+   "exact": true
+  },
+  {
+   "place": "Hyson Green",
+   "county": "Derbyshire",
+   "nation": "England",
+   "served": 453,
+   "title": "St Stephens Parishioners - WW1 Roll Of Honour",
+   "mid": 38811,
+   "exact": true
+  },
+  {
+   "place": "Seagoe",
+   "county": "",
+   "nation": "Northern Ireland",
+   "served": 221,
+   "title": "Seagoe Parish Roll of Honour",
+   "mid": 42580,
+   "exact": false
+  },
+  {
+   "place": "Menai Bridge (Porthaethwy)",
+   "county": "Sir Ynys Mon - Isle of Anglesey",
+   "nation": "Wales",
+   "served": 159,
+   "title": "The Menai Bridge Roll of Service",
+   "mid": 114393,
+   "exact": true
+  },
+  {
+   "place": "Tyford",
+   "county": "Hampshire",
+   "nation": "England",
+   "served": 143,
+   "title": "Twyford roll of those who served abroad",
+   "mid": 96814,
+   "exact": true
+  },
+  {
+   "place": "Cadishead",
+   "county": "",
+   "nation": "England",
+   "served": 138,
+   "title": "Irlam And Cadishead Roll Of Honour - WW1",
+   "mid": 45130,
+   "exact": true
+  },
+  {
+   "place": "East Howdon",
+   "county": "",
+   "nation": "England",
+   "served": 117,
+   "title": "East Howdon WW1 Roll Of Honour",
+   "mid": 34355,
+   "exact": false
+  },
+  {
+   "place": "Clewer",
+   "county": "Windsor and Maidenhead",
+   "nation": "England",
+   "served": 108,
+   "title": "St Andrew's Parishioners",
+   "mid": 9061,
+   "exact": true
+  },
+  {
+   "place": "Broadheath",
+   "county": "Worcestershire",
+   "nation": "England",
+   "served": 106,
+   "title": "Broadheath Village Hall",
+   "mid": 52053,
+   "exact": false
+  },
+  {
+   "place": "Whiteabbey",
+   "county": "",
+   "nation": "Northern Ireland",
+   "served": 102,
+   "title": "Whiteabbey Presbyterians",
+   "mid": 6435,
+   "exact": false
+  },
+  {
+   "place": "Roadhead",
+   "county": "Cumberland",
+   "nation": "England",
+   "served": 89,
+   "title": "Bewcastle (Roadhead) Roll of Honour",
+   "mid": 4261,
+   "exact": true
+  },
+  {
+   "place": "Great Kimble",
+   "county": "Buckinghamshire",
+   "nation": "England",
+   "served": 85,
+   "title": "Great And Little Kimble - WW1 Served",
+   "mid": 8293,
+   "exact": true
+  },
+  {
+   "place": "Higham",
+   "county": "Suffolk",
+   "nation": "England",
+   "served": 83,
+   "title": "Higham Roll Of Honour WW1",
+   "mid": 21847,
+   "exact": true
+  },
+  {
+   "place": "Wrafton",
+   "county": "Devon",
+   "nation": "England",
+   "served": 78,
+   "title": "Heanton Punchardon - WW1, Served",
+   "mid": 55808,
+   "exact": true
+  },
+  {
+   "place": "Gosforth, Newcastle Upon Tyne",
+   "county": "",
+   "nation": "England",
+   "served": 75,
+   "title": "West Avenue Methodists, Gosforth - WW1, Served",
+   "mid": 34474,
+   "exact": true
+  },
+  {
+   "place": "Whitburn",
+   "county": "",
+   "nation": "England",
+   "served": 74,
+   "title": "Whitburn Brotherhood",
+   "mid": 48328,
+   "exact": true
+  },
+  {
+   "place": "Newtonbreda",
+   "county": "",
+   "nation": "Northern Ireland",
+   "served": 63,
+   "title": "Knockbreda Parishioners - Roll of Honour - WW1",
+   "mid": 6318,
+   "exact": true
+  },
+  {
+   "place": "Coverham",
+   "county": "North Yorkshire",
+   "nation": "England",
+   "served": 62,
+   "title": "Coverham - WW1",
+   "mid": 30160,
+   "exact": true
+  },
+  {
+   "place": "Upton",
+   "county": "West Northamptonshire",
+   "nation": "England",
+   "served": 55,
+   "title": "Men of Upton",
+   "mid": 61175,
+   "exact": true
+  },
+  {
+   "place": "East Tilbury",
+   "county": "Thurrock",
+   "nation": "England",
+   "served": 54,
+   "title": "St Catherines Church WW1 Roll of Honour",
+   "mid": 22613,
+   "exact": false
+  },
+  {
+   "place": "Sutton",
+   "county": "Nottinghamshire",
+   "nation": "England",
+   "served": 52,
+   "title": "Sutton Board Served WW1",
+   "mid": 38768,
+   "exact": true
+  },
+  {
+   "place": "Quernmore",
+   "county": "Lancashire",
+   "nation": "England",
+   "served": 51,
+   "title": "Quernmore",
+   "mid": 563,
+   "exact": false
+  },
+  {
+   "place": "Fleur De Lis, Islwyn",
+   "county": "Caerffili - Caerphilly",
+   "nation": "Wales",
+   "served": 51,
+   "title": "Wesleyan Chapel - WW1 Roll Of Honour",
+   "mid": 60702,
+   "exact": true
+  },
+  {
+   "place": "approx 1 mile north of Southend",
+   "county": "",
+   "nation": "Northern Ireland",
+   "served": 51,
+   "title": "Parish of Southend - WW1 Roll of Honour",
+   "mid": 9774,
+   "exact": true
+  },
+  {
+   "place": "Bontnewydd",
+   "county": "Conwy - Conwy",
+   "nation": "Wales",
+   "served": 49,
+   "title": "Cefn and Cefnmeiriadog Roll of Honour",
+   "mid": 106476,
+   "exact": true
+  },
+  {
+   "place": "Ballinderry",
+   "county": "",
+   "nation": "Northern Ireland",
+   "served": 49,
+   "title": "Ballinderry Parishioners Roll Of Honour",
+   "mid": 6471,
+   "exact": false
+  },
+  {
+   "place": "Perlethorpe cum Budby",
+   "county": "Nottinghamshire",
+   "nation": "England",
+   "served": 48,
+   "title": "St John's Church, Perlethorpe - WW1",
+   "mid": 68373,
+   "exact": true
+  },
+  {
+   "place": "Newton Upon Rawcliffe",
+   "county": "North Yorkshire",
+   "nation": "England",
+   "served": 48,
+   "title": "St Johns Roll Of Honour - WW1",
+   "mid": 30753,
+   "exact": true
+  },
+  {
+   "place": "East Worlington",
+   "county": "Devon",
+   "nation": "England",
+   "served": 46,
+   "title": "Men of Worlington - Served",
+   "mid": 95955,
+   "exact": true
+  },
+  {
+   "place": "Llanfechin",
+   "county": "Powys - Powys",
+   "nation": "Wales",
+   "served": 46,
+   "title": "Llanfechain - WW1 Roll Of Honour",
+   "mid": 60705,
+   "exact": true
+  },
+  {
+   "place": "Barnham Broom",
+   "county": "Norfolk",
+   "nation": "England",
+   "served": 44,
+   "title": "St Peter and St Paul Church - WW1",
+   "mid": 19969,
+   "exact": false
+  },
+  {
+   "place": "Dunkeswell",
+   "county": "Devon",
+   "nation": "England",
+   "served": 42,
+   "title": "Dunkeswell - WW1 Roll Of Honour",
+   "mid": 25484,
+   "exact": false
+  },
+  {
+   "place": "Thompson Near Watton",
+   "county": "Norfolk",
+   "nation": "England",
+   "served": 40,
+   "title": "Men Of Thompson Served And Returned WW1",
+   "mid": 53388,
+   "exact": false
+  },
+  {
+   "place": "Donacloney",
+   "county": "",
+   "nation": "Northern Ireland",
+   "served": 37,
+   "title": "Donacloney Presbyterians",
+   "mid": 6483,
+   "exact": true
+  },
+  {
+   "place": "Everleigh",
+   "county": "Wiltshire",
+   "nation": "England",
+   "served": 37,
+   "title": "Everleigh 1914-18 and 1939-45",
+   "mid": 97140,
+   "exact": true
+  },
+  {
+   "place": "Weekley",
+   "county": "North Northamptonshire",
+   "nation": "England",
+   "served": 37,
+   "title": "Weekley Memorial Plaque - WW1 Served",
+   "mid": 37439,
+   "exact": false
+  },
+  {
+   "place": "Rickinghall Superior",
+   "county": "Suffolk",
+   "nation": "England",
+   "served": 36,
+   "title": "Rickinghall Superior residents",
+   "mid": 87630,
+   "exact": true
+  },
+  {
+   "place": "Coberley",
+   "county": "Gloucestershire",
+   "nation": "England",
+   "served": 33,
+   "title": "Coberley WW1",
+   "mid": 109384,
+   "exact": true
+  },
+  {
+   "place": "Fordwich",
+   "county": "Kent",
+   "nation": "England",
+   "served": 32,
+   "title": "Fordwich WW1served",
+   "mid": 91702,
+   "exact": true
+  },
+  {
+   "place": "New Mill",
+   "county": "",
+   "nation": "England",
+   "served": 32,
+   "title": "New Mill Village Institute, Kirklees",
+   "mid": 52708,
+   "exact": false
+  },
+  {
+   "place": "Possilpark",
+   "county": "Glasgow City",
+   "nation": "Scotland",
+   "served": 30,
+   "title": "St Matthew's Church -WW1",
+   "mid": 70418,
+   "exact": true
+  },
+  {
+   "place": "Mickfield, Stowmarket",
+   "county": "Suffolk",
+   "nation": "England",
+   "served": 30,
+   "title": "Mickfield Men",
+   "mid": 93177,
+   "exact": true
+  },
+  {
+   "place": "Moorlinch",
+   "county": "Somerset",
+   "nation": "England",
+   "served": 30,
+   "title": "Moorlynch Roll of Service",
+   "mid": 30400,
+   "exact": true
+  },
+  {
+   "place": "Aberedw",
+   "county": "Powys - Powys",
+   "nation": "Wales",
+   "served": 29,
+   "title": "Aberedw",
+   "mid": 113630,
+   "exact": true
+  },
+  {
+   "place": "Thorneyburn",
+   "county": "Northumberland",
+   "nation": "England",
+   "served": 27,
+   "title": "St Lukes Parishioners - WW1 (served)",
+   "mid": 33937,
+   "exact": true
+  },
+  {
+   "place": "Hauxley",
+   "county": "Northumberland",
+   "nation": "England",
+   "served": 27,
+   "title": "Hauxley WW1 Roll Of Honour",
+   "mid": 33747,
+   "exact": true
+  },
+  {
+   "place": "Maesmynys",
+   "county": "Powys - Powys",
+   "nation": "Wales",
+   "served": 27,
+   "title": "Maesmynys (or Maesmynis)",
+   "mid": 113619,
+   "exact": true
+  },
+  {
+   "place": "Stamford On Teme",
+   "county": "Worcestershire",
+   "nation": "England",
+   "served": 26,
+   "title": "St Marys Church Tablet WW1 Served",
+   "mid": 37841,
+   "exact": false
+  },
+  {
+   "place": "Llansantfraid Glyn Ceiriog",
+   "county": "Wrecsam - Wrexham",
+   "nation": "Wales",
+   "served": 25,
+   "title": "St Ffraids Church WW1 Roll Of Honour",
+   "mid": 38207,
+   "exact": false
+  },
+  {
+   "place": "Sion",
+   "county": "",
+   "nation": "Channel Islands",
+   "served": 25,
+   "title": "Sion Wesleyan Church Roll Of Honour",
+   "mid": 64059,
+   "exact": true
+  },
+  {
+   "place": "Bradley",
+   "county": "Gloucestershire",
+   "nation": "England",
+   "served": 23,
+   "title": "St John The Baptist Parishioners Roll Of Honour",
+   "mid": 20665,
+   "exact": false
+  },
+  {
+   "place": "Stock and Bradley",
+   "county": "Worcestershire",
+   "nation": "England",
+   "served": 23,
+   "title": "Stock and Bradley Church Roll of Honour",
+   "mid": 106181,
+   "exact": true
+  },
+  {
+   "place": "Colmworth",
+   "county": "Bedford",
+   "nation": "England",
+   "served": 23,
+   "title": "Colmworth WW1 Roll Of Honour",
+   "mid": 1710,
+   "exact": false
+  },
+  {
+   "place": "Challacombe, Barton Town",
+   "county": "Devon",
+   "nation": "England",
+   "served": 21,
+   "title": "Challacombe Church WW1",
+   "mid": 25522,
+   "exact": true
+  },
+  {
+   "place": "Malham",
+   "county": "North Yorkshire",
+   "nation": "England",
+   "served": 21,
+   "title": "Malham Wesleyan Methodists",
+   "mid": 68913,
+   "exact": true
+  },
+  {
+   "place": "Upper Elkstone",
+   "county": "Staffordshire",
+   "nation": "England",
+   "served": 20,
+   "title": "Elkstone - WW1 Tablet",
+   "mid": 38299,
+   "exact": true
+  },
+  {
+   "place": "Dalehead",
+   "county": "Lancashire",
+   "nation": "England",
+   "served": 20,
+   "title": "Dalehead",
+   "mid": 10572,
+   "exact": true
+  },
+  {
+   "place": "Clonaneese",
+   "county": "",
+   "nation": "Northern Ireland",
+   "served": 19,
+   "title": "Clonaneese",
+   "mid": 6159,
+   "exact": false
+  },
+  {
+   "place": "Monxton",
+   "county": "Hampshire",
+   "nation": "England",
+   "served": 19,
+   "title": "St Mary's Church, Monxton - WW1, Served",
+   "mid": 97414,
+   "exact": true
+  },
+  {
+   "place": "South Elmham St Margaret",
+   "county": "Suffolk",
+   "nation": "England",
+   "served": 17,
+   "title": "South Elmham St Margaret - WW1",
+   "mid": 72740,
+   "exact": true
+  },
+  {
+   "place": "Wheatfield",
+   "county": "Oxfordshire",
+   "nation": "England",
+   "served": 14,
+   "title": "Wheatfield",
+   "mid": 31794,
+   "exact": true
+  },
+  {
+   "place": "Kirby (or Kirkby) Knowle",
+   "county": "North Yorkshire",
+   "nation": "England",
+   "served": 13,
+   "title": "Upsall Roll of Honour",
+   "mid": 87277,
+   "exact": true
+  },
+  {
+   "place": "Silkstone",
+   "county": "",
+   "nation": "England",
+   "served": 12,
+   "title": "Silkstone",
+   "mid": 28120,
+   "exact": false
+  },
+  {
+   "place": "Smethcott",
+   "county": "Shropshire",
+   "nation": "England",
+   "served": 12,
+   "title": "Smethcott",
+   "mid": 112526,
+   "exact": true
+  },
+  {
+   "place": "Marybank",
+   "county": "Highland",
+   "nation": "Scotland",
+   "served": 11,
+   "title": "Fairburn Memorial Hall - WW1 Plaque",
+   "mid": 69586,
+   "exact": true
+  },
+  {
+   "place": "Oxnead",
+   "county": "Norfolk",
+   "nation": "England",
+   "served": 11,
+   "title": "Oxnead - WW1",
+   "mid": 65086,
+   "exact": true
+  },
+  {
+   "place": "East Holywell",
+   "county": "",
+   "nation": "England",
+   "served": 10,
+   "title": "East Holywell Wesleyan Church WW1 Roll Of Honour",
+   "mid": 34348,
+   "exact": false
+  },
+  {
+   "place": "Waithe",
+   "county": "Lincolnshire",
+   "nation": "England",
+   "served": 10,
+   "title": "Waithe",
+   "mid": 63949,
+   "exact": true
+  },
+  {
+   "place": "Macclesfield Forest",
+   "county": "Cheshire East",
+   "nation": "England",
+   "served": 9,
+   "title": "Forest Chapel WW1",
+   "mid": 42794,
+   "exact": true
+  },
+  {
+   "place": "Coston",
+   "county": "Leicestershire",
+   "nation": "England",
+   "served": 8,
+   "title": "Coston - WW1 Roll of Honour",
+   "mid": 58018,
+   "exact": true
+  },
+  {
+   "place": "Howdon On Tyne",
+   "county": "",
+   "nation": "England",
+   "served": 8,
+   "title": "Tyne Improvement Commission",
+   "mid": 34361,
+   "exact": false
+  },
+  {
+   "place": "Gwenddwr",
+   "county": "Powys - Powys",
+   "nation": "Wales",
+   "served": 6,
+   "title": "gwenddwr",
+   "mid": 113622,
+   "exact": true
+  },
+  {
+   "place": "Felindre",
+   "county": "Powys - Powys",
+   "nation": "Wales",
+   "served": 6,
+   "title": "Felindre Roll Of Heroes",
+   "mid": 37207,
+   "exact": false
+  }
+ ],
+ "served_only_by_nation": {
+  "England": 55,
+  "Wales": 9,
+  "Northern Ireland": 7,
+  "Scotland": 2,
+  "Channel Islands": 1
+ },
+ "candidates": {
+  "n": 61,
+  "exact": 44,
+  "with_pop": 23,
+  "by_nation": {
+   "England": 45,
+   "Wales": 8,
+   "Northern Ireland": 5,
+   "Scotland": 2,
+   "Channel Islands": 1
+  }
+ },
+ "candidates_list": [
+  {
+   "place": "Sion",
+   "county": "",
+   "nation": "Channel Islands",
+   "served": 25,
+   "title": "Sion Wesleyan Church Roll Of Honour",
+   "mid": 64059,
+   "exact": true,
+   "pop": null,
+   "lat": 49.22249,
+   "lng": -2.1136
+  },
+  {
+   "place": "East Holywell",
+   "county": "",
+   "nation": "England",
+   "served": 10,
+   "title": "East Holywell Wesleyan Church WW1 Roll Of Honour",
+   "mid": 34348,
+   "exact": false,
+   "pop": null,
+   "lat": 55.05054,
+   "lng": -1.51631
+  },
+  {
+   "place": "Gosforth, Newcastle Upon Tyne",
+   "county": "",
+   "nation": "England",
+   "served": 75,
+   "title": "West Avenue Methodists, Gosforth - WW1, Served",
+   "mid": 34474,
+   "exact": true,
+   "pop": null,
+   "lat": 55.00555,
+   "lng": -1.62088
+  },
+  {
+   "place": "Howdon On Tyne",
+   "county": "",
+   "nation": "England",
+   "served": 8,
+   "title": "Tyne Improvement Commission",
+   "mid": 34361,
+   "exact": false,
+   "pop": null,
+   "lat": 54.98931,
+   "lng": -1.48579
+  },
+  {
+   "place": "New Mill",
+   "county": "",
+   "nation": "England",
+   "served": 32,
+   "title": "New Mill Village Institute, Kirklees",
+   "mid": 52708,
+   "exact": false,
+   "pop": null,
+   "lat": 53.57736,
+   "lng": -1.75982
+  },
+  {
+   "place": "Silkstone",
+   "county": "",
+   "nation": "England",
+   "served": 12,
+   "title": "Silkstone",
+   "mid": 28120,
+   "exact": false,
+   "pop": 3153,
+   "lat": 53.54863,
+   "lng": -1.56413
+  },
+  {
+   "place": "Colmworth",
+   "county": "Bedford",
+   "nation": "England",
+   "served": 23,
+   "title": "Colmworth WW1 Roll Of Honour",
+   "mid": 1710,
+   "exact": false,
+   "pop": 444,
+   "lat": 52.21428,
+   "lng": -0.37853
+  },
+  {
+   "place": "Great Kimble",
+   "county": "Buckinghamshire",
+   "nation": "England",
+   "served": 85,
+   "title": "Great And Little Kimble - WW1 Served",
+   "mid": 8293,
+   "exact": true,
+   "pop": null,
+   "lat": 51.74633,
+   "lng": -0.80575
+  },
+  {
+   "place": "Macclesfield Forest",
+   "county": "Cheshire East",
+   "nation": "England",
+   "served": 9,
+   "title": "Forest Chapel WW1",
+   "mid": 42794,
+   "exact": true,
+   "pop": null,
+   "lat": 53.24502,
+   "lng": -2.0464
+  },
+  {
+   "place": "Roadhead",
+   "county": "Cumberland",
+   "nation": "England",
+   "served": 89,
+   "title": "Bewcastle (Roadhead) Roll of Honour",
+   "mid": 4261,
+   "exact": true,
+   "pop": null,
+   "lat": 55.07011,
+   "lng": -2.75284
+  },
+  {
+   "place": "Challacombe, Barton Town",
+   "county": "Devon",
+   "nation": "England",
+   "served": 21,
+   "title": "Challacombe Church WW1",
+   "mid": 25522,
+   "exact": true,
+   "pop": null,
+   "lat": 51.1494,
+   "lng": -3.88861
+  },
+  {
+   "place": "Dunkeswell",
+   "county": "Devon",
+   "nation": "England",
+   "served": 42,
+   "title": "Dunkeswell - WW1 Roll Of Honour",
+   "mid": 25484,
+   "exact": false,
+   "pop": 1835,
+   "lat": 50.86337,
+   "lng": -3.22153
+  },
+  {
+   "place": "East Worlington",
+   "county": "Devon",
+   "nation": "England",
+   "served": 46,
+   "title": "Men of Worlington - Served",
+   "mid": 95955,
+   "exact": true,
+   "pop": 241,
+   "lat": 50.9098,
+   "lng": -3.74403
+  },
+  {
+   "place": "Wrafton",
+   "county": "Devon",
+   "nation": "England",
+   "served": 78,
+   "title": "Heanton Punchardon - WW1, Served",
+   "mid": 55808,
+   "exact": true,
+   "pop": null,
+   "lat": 51.09983,
+   "lng": -4.15511
+  },
+  {
+   "place": "Bradley",
+   "county": "Gloucestershire",
+   "nation": "England",
+   "served": 23,
+   "title": "St John The Baptist Parishioners Roll Of Honour",
+   "mid": 20665,
+   "exact": false,
+   "pop": null,
+   "lat": 51.64158,
+   "lng": -2.35254
+  },
+  {
+   "place": "Coberley",
+   "county": "Gloucestershire",
+   "nation": "England",
+   "served": 33,
+   "title": "Coberley WW1",
+   "mid": 109384,
+   "exact": true,
+   "pop": 373,
+   "lat": 51.84101,
+   "lng": -2.05128
+  },
+  {
+   "place": "Monxton",
+   "county": "Hampshire",
+   "nation": "England",
+   "served": 19,
+   "title": "St Mary's Church, Monxton - WW1, Served",
+   "mid": 97414,
+   "exact": true,
+   "pop": 277,
+   "lat": 51.19977,
+   "lng": -1.55339
+  },
+  {
+   "place": "Fordwich",
+   "county": "Kent",
+   "nation": "England",
+   "served": 32,
+   "title": "Fordwich WW1served",
+   "mid": 91702,
+   "exact": true,
+   "pop": 381,
+   "lat": 51.2958,
+   "lng": 1.12713
+  },
+  {
+   "place": "Dalehead",
+   "county": "Lancashire",
+   "nation": "England",
+   "served": 20,
+   "title": "Dalehead",
+   "mid": 10572,
+   "exact": true,
+   "pop": null,
+   "lat": 53.99418,
+   "lng": -2.40289
+  },
+  {
+   "place": "Quernmore",
+   "county": "Lancashire",
+   "nation": "England",
+   "served": 51,
+   "title": "Quernmore",
+   "mid": 563,
+   "exact": false,
+   "pop": 586,
+   "lat": 54.0363,
+   "lng": -2.7371
+  },
+  {
+   "place": "Coston",
+   "county": "Leicestershire",
+   "nation": "England",
+   "served": 8,
+   "title": "Coston - WW1 Roll of Honour",
+   "mid": 58018,
+   "exact": true,
+   "pop": null,
+   "lat": 52.79064,
+   "lng": -0.74382
+  },
+  {
+   "place": "Waithe",
+   "county": "Lincolnshire",
+   "nation": "England",
+   "served": 10,
+   "title": "Waithe",
+   "mid": 63949,
+   "exact": true,
+   "pop": 24,
+   "lat": 53.48756,
+   "lng": -0.06559
+  },
+  {
+   "place": "Barnham Broom",
+   "county": "Norfolk",
+   "nation": "England",
+   "served": 44,
+   "title": "St Peter and St Paul Church - WW1",
+   "mid": 19969,
+   "exact": false,
+   "pop": 666,
+   "lat": 52.62801,
+   "lng": 1.07486
+  },
+  {
+   "place": "Oxnead",
+   "county": "Norfolk",
+   "nation": "England",
+   "served": 11,
+   "title": "Oxnead - WW1",
+   "mid": 65086,
+   "exact": true,
+   "pop": null,
+   "lat": 52.76799,
+   "lng": 1.30366
+  },
+  {
+   "place": "Thompson Near Watton",
+   "county": "Norfolk",
+   "nation": "England",
+   "served": 40,
+   "title": "Men Of Thompson Served And Returned WW1",
+   "mid": 53388,
+   "exact": false,
+   "pop": null,
+   "lat": 52.53575,
+   "lng": 0.84424
+  },
+  {
+   "place": "Weekley",
+   "county": "North Northamptonshire",
+   "nation": "England",
+   "served": 37,
+   "title": "Weekley Memorial Plaque - WW1 Served",
+   "mid": 37439,
+   "exact": false,
+   "pop": 297,
+   "lat": 52.41891,
+   "lng": -0.69716
+  },
+  {
+   "place": "Coverham",
+   "county": "North Yorkshire",
+   "nation": "England",
+   "served": 62,
+   "title": "Coverham - WW1",
+   "mid": 30160,
+   "exact": true,
+   "pop": null,
+   "lat": 54.27288,
+   "lng": -1.84203
+  },
+  {
+   "place": "Kirby (or Kirkby) Knowle",
+   "county": "North Yorkshire",
+   "nation": "England",
+   "served": 13,
+   "title": "Upsall Roll of Honour",
+   "mid": 87277,
+   "exact": true,
+   "pop": null,
+   "lat": 54.27905,
+   "lng": -1.2822
+  },
+  {
+   "place": "Malham",
+   "county": "North Yorkshire",
+   "nation": "England",
+   "served": 21,
+   "title": "Malham Wesleyan Methodists",
+   "mid": 68913,
+   "exact": true,
+   "pop": 238,
+   "lat": 54.06005,
+   "lng": -2.15327
+  },
+  {
+   "place": "Newton Upon Rawcliffe",
+   "county": "North Yorkshire",
+   "nation": "England",
+   "served": 48,
+   "title": "St Johns Roll Of Honour - WW1",
+   "mid": 30753,
+   "exact": true,
+   "pop": null,
+   "lat": 54.30232,
+   "lng": -0.7518
+  },
+  {
+   "place": "Hauxley",
+   "county": "Northumberland",
+   "nation": "England",
+   "served": 27,
+   "title": "Hauxley WW1 Roll Of Honour",
+   "mid": 33747,
+   "exact": true,
+   "pop": 279,
+   "lat": 55.31929,
+   "lng": -1.55078
+  },
+  {
+   "place": "Thorneyburn",
+   "county": "Northumberland",
+   "nation": "England",
+   "served": 27,
+   "title": "St Lukes Parishioners - WW1 (served)",
+   "mid": 33937,
+   "exact": true,
+   "pop": null,
+   "lat": 55.18302,
+   "lng": -2.33719
+  },
+  {
+   "place": "Perlethorpe cum Budby",
+   "county": "Nottinghamshire",
+   "nation": "England",
+   "served": 48,
+   "title": "St John's Church, Perlethorpe - WW1",
+   "mid": 68373,
+   "exact": true,
+   "pop": 198,
+   "lat": 53.22585,
+   "lng": -1.05634
+  },
+  {
+   "place": "Sutton",
+   "county": "Nottinghamshire",
+   "nation": "England",
+   "served": 52,
+   "title": "Sutton Board Served WW1",
+   "mid": 38768,
+   "exact": true,
+   "pop": 687,
+   "lat": 53.35257,
+   "lng": -0.97911
+  },
+  {
+   "place": "Wheatfield",
+   "county": "Oxfordshire",
+   "nation": "England",
+   "served": 14,
+   "title": "Wheatfield",
+   "mid": 31794,
+   "exact": true,
+   "pop": 23,
+   "lat": 51.68802,
+   "lng": -1.00516
+  },
+  {
+   "place": "Smethcott",
+   "county": "Shropshire",
+   "nation": "England",
+   "served": 12,
+   "title": "Smethcott",
+   "mid": 112526,
+   "exact": true,
+   "pop": 254,
+   "lat": 52.58917,
+   "lng": -2.81389
+  },
+  {
+   "place": "Moorlinch",
+   "county": "Somerset",
+   "nation": "England",
+   "served": 30,
+   "title": "Moorlynch Roll of Service",
+   "mid": 30400,
+   "exact": true,
+   "pop": 408,
+   "lat": 51.12804,
+   "lng": -2.86165
+  },
+  {
+   "place": "Upper Elkstone",
+   "county": "Staffordshire",
+   "nation": "England",
+   "served": 20,
+   "title": "Elkstone - WW1 Tablet",
+   "mid": 38299,
+   "exact": true,
+   "pop": null,
+   "lat": 53.12724,
+   "lng": -1.91775
+  },
+  {
+   "place": "Higham",
+   "county": "Suffolk",
+   "nation": "England",
+   "served": 83,
+   "title": "Higham Roll Of Honour WW1",
+   "mid": 21847,
+   "exact": true,
+   "pop": 156,
+   "lat": 52.25822,
+   "lng": 0.553
+  },
+  {
+   "place": "Mickfield, Stowmarket",
+   "county": "Suffolk",
+   "nation": "England",
+   "served": 30,
+   "title": "Mickfield Men",
+   "mid": 93177,
+   "exact": true,
+   "pop": null,
+   "lat": 52.21242,
+   "lng": 1.12328
+  },
+  {
+   "place": "Rickinghall Superior",
+   "county": "Suffolk",
+   "nation": "England",
+   "served": 36,
+   "title": "Rickinghall Superior residents",
+   "mid": 87630,
+   "exact": true,
+   "pop": 827,
+   "lat": 52.33141,
+   "lng": 0.99388
+  },
+  {
+   "place": "South Elmham St Margaret",
+   "county": "Suffolk",
+   "nation": "England",
+   "served": 17,
+   "title": "South Elmham St Margaret - WW1",
+   "mid": 72740,
+   "exact": true,
+   "pop": null,
+   "lat": 52.40478,
+   "lng": 1.40053
+  },
+  {
+   "place": "East Tilbury",
+   "county": "Thurrock",
+   "nation": "England",
+   "served": 54,
+   "title": "St Catherines Church WW1 Roll of Honour",
+   "mid": 22613,
+   "exact": false,
+   "pop": null,
+   "lat": 51.46489,
+   "lng": 0.43264
+  },
+  {
+   "place": "Everleigh",
+   "county": "Wiltshire",
+   "nation": "England",
+   "served": 37,
+   "title": "Everleigh 1914-18 and 1939-45",
+   "mid": 97140,
+   "exact": true,
+   "pop": 230,
+   "lat": 51.28624,
+   "lng": -1.71711
+  },
+  {
+   "place": "Stamford On Teme",
+   "county": "Worcestershire",
+   "nation": "England",
+   "served": 26,
+   "title": "St Marys Church Tablet WW1 Served",
+   "mid": 37841,
+   "exact": false,
+   "pop": null,
+   "lat": 52.28863,
+   "lng": -2.43683
+  },
+  {
+   "place": "Stock and Bradley",
+   "county": "Worcestershire",
+   "nation": "England",
+   "served": 23,
+   "title": "Stock and Bradley Church Roll of Honour",
+   "mid": 106181,
+   "exact": true,
+   "pop": 330,
+   "lat": 52.2403,
+   "lng": -2.02156
+  },
+  {
+   "place": "Ballinderry",
+   "county": "",
+   "nation": "Northern Ireland",
+   "served": 49,
+   "title": "Ballinderry Parishioners Roll Of Honour",
+   "mid": 6471,
+   "exact": false,
+   "pop": null,
+   "lat": 54.54027,
+   "lng": -6.20847
+  },
+  {
+   "place": "Clonaneese",
+   "county": "",
+   "nation": "Northern Ireland",
+   "served": 19,
+   "title": "Clonaneese",
+   "mid": 6159,
+   "exact": false,
+   "pop": null,
+   "lat": 54.46874,
+   "lng": -6.90074
+  },
+  {
+   "place": "Donacloney",
+   "county": "",
+   "nation": "Northern Ireland",
+   "served": 37,
+   "title": "Donacloney Presbyterians",
+   "mid": 6483,
+   "exact": true,
+   "pop": null,
+   "lat": 54.40367,
+   "lng": -6.27633
+  },
+  {
+   "place": "Newtonbreda",
+   "county": "",
+   "nation": "Northern Ireland",
+   "served": 63,
+   "title": "Knockbreda Parishioners - Roll of Honour - WW1",
+   "mid": 6318,
+   "exact": true,
+   "pop": null,
+   "lat": 54.56178,
+   "lng": -5.91214
+  },
+  {
+   "place": "approx 1 mile north of Southend",
+   "county": "",
+   "nation": "Northern Ireland",
+   "served": 51,
+   "title": "Parish of Southend - WW1 Roll of Honour",
+   "mid": 9774,
+   "exact": true,
+   "pop": null,
+   "lat": 55.32533,
+   "lng": -5.62938
+  },
+  {
+   "place": "Possilpark",
+   "county": "Glasgow City",
+   "nation": "Scotland",
+   "served": 30,
+   "title": "St Matthew's Church -WW1",
+   "mid": 70418,
+   "exact": true,
+   "pop": null,
+   "lat": 55.88823,
+   "lng": -4.25791
+  },
+  {
+   "place": "Marybank",
+   "county": "Highland",
+   "nation": "Scotland",
+   "served": 11,
+   "title": "Fairburn Memorial Hall - WW1 Plaque",
+   "mid": 69586,
+   "exact": true,
+   "pop": null,
+   "lat": 57.54809,
+   "lng": -4.54233
+  },
+  {
+   "place": "Fleur De Lis, Islwyn",
+   "county": "Caerffili - Caerphilly",
+   "nation": "Wales",
+   "served": 51,
+   "title": "Wesleyan Chapel - WW1 Roll Of Honour",
+   "mid": 60702,
+   "exact": true,
+   "pop": null,
+   "lat": 51.65634,
+   "lng": -3.23014
+  },
+  {
+   "place": "Bontnewydd",
+   "county": "Conwy - Conwy",
+   "nation": "Wales",
+   "served": 49,
+   "title": "Cefn and Cefnmeiriadog Roll of Honour",
+   "mid": 106476,
+   "exact": true,
+   "pop": null,
+   "lat": 53.23207,
+   "lng": -3.47268
+  },
+  {
+   "place": "Aberedw",
+   "county": "Powys - Powys",
+   "nation": "Wales",
+   "served": 29,
+   "title": "Aberedw",
+   "mid": 113630,
+   "exact": true,
+   "pop": 240,
+   "lat": 52.11641,
+   "lng": -3.34463
+  },
+  {
+   "place": "Felindre",
+   "county": "Powys - Powys",
+   "nation": "Wales",
+   "served": 6,
+   "title": "Felindre Roll Of Heroes",
+   "mid": 37207,
+   "exact": false,
+   "pop": null,
+   "lat": 52.42052,
+   "lng": -3.2366
+  },
+  {
+   "place": "Gwenddwr",
+   "county": "Powys - Powys",
+   "nation": "Wales",
+   "served": 6,
+   "title": "gwenddwr",
+   "mid": 113622,
+   "exact": true,
+   "pop": null,
+   "lat": 52.07966,
+   "lng": -3.36575
+  },
+  {
+   "place": "Llanfechin",
+   "county": "Powys - Powys",
+   "nation": "Wales",
+   "served": 46,
+   "title": "Llanfechain - WW1 Roll Of Honour",
+   "mid": 60705,
+   "exact": true,
+   "pop": null,
+   "lat": 52.77599,
+   "lng": -3.20218
+  },
+  {
+   "place": "Maesmynys",
+   "county": "Powys - Powys",
+   "nation": "Wales",
+   "served": 27,
+   "title": "Maesmynys (or Maesmynis)",
+   "mid": 113619,
+   "exact": true,
+   "pop": null,
+   "lat": 52.13759,
+   "lng": -3.4216
+  },
+  {
+   "place": "Llansantfraid Glyn Ceiriog",
+   "county": "Wrecsam - Wrexham",
+   "nation": "Wales",
+   "served": 25,
+   "title": "St Ffraids Church WW1 Roll Of Honour",
+   "mid": 38207,
+   "exact": false,
+   "pop": null,
+   "lat": 52.93342,
+   "lng": -3.19166
+  }
+ ],
+ "earlier": {
+  "expected_low": 544,
+  "expected_high": 1373,
+  "risk": 0.12,
+  "n_parishes": 11358,
+  "doi": "10.5281/zenodo.23676168",
+  "nether_kellet_served": 21
+ },
+ "examples": {
+  "Buckden": {
+   "place": "Buckden",
+   "county": "Cambridgeshire",
+   "dead": 33.0,
+   "pop": 2881.0,
+   "rate": 11.5,
+   "title": "Buckden",
+   "n_mem": 6,
+   "dead_all": 48,
+   "mid": 172
+  },
+  "Accrington": {
+   "place": "Accrington",
+   "county": "Lancashire",
+   "dead": 865.0,
+   "pop": 35456.0,
+   "rate": 24.4,
+   "title": "Accrington",
+   "n_mem": 94,
+   "dead_all": 1964,
+   "mid": 601
+  }
+ }
+}
